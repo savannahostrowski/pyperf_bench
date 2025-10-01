@@ -20,8 +20,7 @@ on:
         default: linux-amd64
         type: choice
         options:
-        - linux-x86_64-linux
-        - windows-x86_64-windows
+        - linux-arm64-blueberry
         - all
         - __really_all
       benchmarks:
