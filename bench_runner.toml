@@ -48,7 +48,7 @@ os="linux"
 arch="arm64"
 hostname="blueberry"
 available = true
-use_cores = 2
+use_cores = 1
 env.PYTHON_CONFIGURE_FLAGS = "--enable-optimizations"
 
 [runners.blueberry.plot]
