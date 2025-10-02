@@ -1,1 +1,2 @@
-bench_runner==2.0.8
+git+https://github.com/savannahostrowski/bench_runner.git
+
