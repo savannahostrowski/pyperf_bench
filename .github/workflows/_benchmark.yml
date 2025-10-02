@@ -96,7 +96,6 @@ jobs:
     steps:
     - name: Setup environment
       run: |-
-        echo "PYTHON_CONFIGURE_FLAGS=--enable-optimizations" >> $GITHUB_ENV
         echo "BENCHMARK_MACHINE_NICKNAME=blueberry" >> $GITHUB_ENV
     - name: Checkout benchmarking
       uses: actions/checkout@v4
