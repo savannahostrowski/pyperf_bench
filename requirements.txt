@@ -1,2 +1,2 @@
-git+https://github.com/savannahostrowski/bench_runner.git
+git+https://github.com/savannahostrowski/bench_runner.git@rpi-fix
 
