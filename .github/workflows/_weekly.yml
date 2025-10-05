@@ -54,7 +54,8 @@ jobs:
     if: ${{ always() }}
     with:
       force: false
-    needs: [pystats, pystats-tier2, weekly-default-blueberry]
+    needs: [pystats, pystats-tier2, weekly-default-blueberry, 
+        weekly-jit-blueberry]
     secrets: inherit
 
   publish:
@@ -73,6 +74,20 @@ jobs:
       pgo: true
       tier2: false
       jit: false
+      nogil: false
+      tailcall: false
+    secrets: inherit
+  weekly-jit-blueberry:
+    uses: ./.github/workflows/_benchmark.yml
+    needs: determine_head
+    with:
+      fork: python
+      ref: ${{ needs.determine_head.outputs.commit }}
+      machine: linux-arm64-blueberry
+      benchmarks: all_and_excluded
+      pgo: true
+      tier2: false
+      jit: true
       nogil: false
       tailcall: false
     secrets: inherit

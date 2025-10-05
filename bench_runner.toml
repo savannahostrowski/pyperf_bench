@@ -50,8 +50,14 @@ hostname="blueberry"
 available = true
 use_cores = 4
 
-[runners.blueberry.plot]
-name = "Raspberry Pi (ARM64)"
-style = "-"
-marker = "o"
-color = "#5B7DB1"
+[publish_mirror]
+skip = false
+
+[weekly.default]
+runners = ["blueberry"]
+flags = []
+
+[weekly.jit]
+runners = ["blueberry"]
+flags = ["JIT"]
+
