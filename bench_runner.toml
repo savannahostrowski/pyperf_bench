@@ -53,11 +53,14 @@ use_cores = 4
 [publish_mirror]
 skip = false
 
-[weekly.default]
+[weekly]
+# Weekly runs disabled - using nightly instead
+
+[nightly.default]
 runners = ["blueberry"]
 flags = []
 
-[weekly.jit]
+[nightly.jit]
 runners = ["blueberry"]
 flags = ["JIT"]
 
