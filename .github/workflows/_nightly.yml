@@ -56,9 +56,17 @@ jobs:
       tailcall: false
     secrets: inherit
 
+  generate:
+    uses: ./.github/workflows/_generate.yml
+    with:
+      force: false
+    if: ${{ always() }}
+    needs: [nightly-default-blueberry, nightly-jit-blueberry]
+    secrets: inherit
+
   trigger-dashboard:
     runs-on: ubuntu-latest
-    needs: [nightly-default-blueberry, nightly-jit-blueberry]
+    needs: [generate]
     if: ${{ success() }}
     steps:
     - name: Trigger dashboard update
