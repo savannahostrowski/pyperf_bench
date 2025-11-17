@@ -28,6 +28,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-11-15](results/bm-20251115-3.15.0a1%2B-ed73c90-JIT) | python/ed73c909f278a1eb558b | ed73c90 (JIT) |  |  |  | 1.082x ↓<br>[📄](results/bm-20251115-3.15.0a1%2B-ed73c90-JIT/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1%2B-ed73c90-vs-base.md)[📈](results/bm-20251115-3.15.0a1%2B-ed73c90-JIT/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1%2B-ed73c90-vs-base.svg)[🧠](results/bm-20251115-3.15.0a1%2B-ed73c90-JIT/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1%2B-ed73c90-vs-base-mem.svg) |
 | [2025-11-15](results/bm-20251115-3.15.0a1%2B-ed73c90) | python/ed73c909f278a1eb558b | ed73c90 |  |  |  |  |
 | [2025-08-02](results/bm-20250802-3.15.0a0-801cf3f-JIT) | Fidget-Spinner/last_good_arm_commit | 801cf3f (JIT) |  |  |  |  |
+| [2025-08-02](results/bm-20250802-3.15.0a0-801cf3f) | Fidget-Spinner/last_good_arm_commit | 801cf3f |  |  |  |  |
 
 
 <!-- END table -->
