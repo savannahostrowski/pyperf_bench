@@ -12,6 +12,9 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-652c764-JIT) | python/652c764a59913327b28b | 652c764 (JIT) |  |  |  |  |
+| [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61-JIT) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 (JIT) |  |  |  |  |
+| [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 |  |  |  |  |
 | [2025-11-18](results/bm-20251118-3.15.0a1%2B-4695ec1-JIT) | python/4695ec109d07c9bfd9eb | 4695ec1 (JIT) |  |  |  | 1.053x ↓<br>[📄](results/bm-20251118-3.15.0a1%2B-4695ec1-JIT/bm-20251118-blueberry-aarch64-python-4695ec109d07c9bfd9eb-3.15.0a1%2B-4695ec1-vs-base.md)[📈](results/bm-20251118-3.15.0a1%2B-4695ec1-JIT/bm-20251118-blueberry-aarch64-python-4695ec109d07c9bfd9eb-3.15.0a1%2B-4695ec1-vs-base.svg)[🧠](results/bm-20251118-3.15.0a1%2B-4695ec1-JIT/bm-20251118-blueberry-aarch64-python-4695ec109d07c9bfd9eb-3.15.0a1%2B-4695ec1-vs-base-mem.svg) |
 | [2025-11-18](results/bm-20251118-3.15.0a1%2B-4695ec1) | python/4695ec109d07c9bfd9eb | 4695ec1 |  |  |  |  |
 | [2025-11-17](results/bm-20251117-3.15.0a1%2B-5d2eb98-JIT) | python/5d2eb98a91f2cd703d14 | 5d2eb98 (JIT) |  |  |  | 1.067x ↓<br>[📄](results/bm-20251117-3.15.0a1%2B-5d2eb98-JIT/bm-20251117-blueberry-aarch64-python-5d2eb98a91f2cd703d14-3.15.0a1%2B-5d2eb98-vs-base.md)[📈](results/bm-20251117-3.15.0a1%2B-5d2eb98-JIT/bm-20251117-blueberry-aarch64-python-5d2eb98a91f2cd703d14-3.15.0a1%2B-5d2eb98-vs-base.svg)[🧠](results/bm-20251117-3.15.0a1%2B-5d2eb98-JIT/bm-20251117-blueberry-aarch64-python-5d2eb98a91f2cd703d14-3.15.0a1%2B-5d2eb98-vs-base-mem.svg) |
