@@ -17,10 +17,3 @@
 - [pystats table](bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-pystats.md)
 - [raw results](bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708.json)
 
-## linux x86_64 (ripley)
-
-- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19490816413)
-- cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
-- platform: Linux-6.8.0-87-generic-x86_64-with-glibc2.39
-- [raw results](bm-20251119-ripley-x86_64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708.json)
-
