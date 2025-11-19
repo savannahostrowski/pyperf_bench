@@ -1,0 +1,523 @@
+{
+  "benchmarks": [
+    {
+      "runs": [
+        {
+          "metadata": {
+            "calibrate_loops": 8,
+            "cpu_freq": "0,2,5=800 MHz; 1=3901 MHz; 3=3981 MHz; 4=3968 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=47 C",
+            "date": "2025-11-19 05:22:42.052618",
+            "duration": 0.8366692379986489,
+            "load_avg_1min": 1.97,
+            "mem_max_rss": 23273472,
+            "uptime": 9655.053703069687
+          },
+          "warmups": [
+            [
+              1,
+              0.02893505799875129
+            ],
+            [
+              2,
+              0.022361558000739024
+            ],
+            [
+              4,
+              0.02129503649985054
+            ],
+            [
+              8,
+              0.021001616749799723
+            ],
+            [
+              8,
+              0.021116203500014308
+            ],
+            [
+              8,
+              0.020417049500110807
+            ],
+            [
+              8,
+              0.020433517750007013
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3948 MHz; 4=3976 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=47 C",
+            "date": "2025-11-19 05:22:42.832411",
+            "duration": 0.6934945630000584,
+            "load_avg_1min": 1.97,
+            "mem_max_rss": 23285760,
+            "uptime": 9655.833459615707
+          },
+          "values": [
+            0.020946686875049636,
+            0.02081153887502296,
+            0.020729941374838745
+          ],
+          "warmups": [
+            [
+              8,
+              0.022501024749999488
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-3,5=800 MHz; 4=3977 MHz",
+            "cpu_temp": "coretemp:Package id 0=57 C, coretemp:Core 0=45 C, coretemp:Core 1=44 C, coretemp:Core 2=46 C, coretemp:Core 3=45 C, coretemp:Core 4=57 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:43.612199",
+            "duration": 0.6945286900008796,
+            "load_avg_1min": 1.97,
+            "mem_max_rss": 23285760,
+            "uptime": 9656.613251924515
+          },
+          "values": [
+            0.020932906624921088,
+            0.02086718774990004,
+            0.020783069250001063
+          ],
+          "warmups": [
+            [
+              8,
+              0.022551847499926225
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3949 MHz; 4=3954 MHz",
+            "cpu_temp": "coretemp:Package id 0=57 C, coretemp:Core 0=45 C, coretemp:Core 1=44 C, coretemp:Core 2=46 C, coretemp:Core 3=45 C, coretemp:Core 4=57 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:44.385412",
+            "duration": 0.688945080000849,
+            "load_avg_1min": 1.97,
+            "mem_max_rss": 23281664,
+            "uptime": 9657.386464357376
+          },
+          "values": [
+            0.02078364787485043,
+            0.020607670749996032,
+            0.020554059750111264
+          ],
+          "warmups": [
+            [
+              8,
+              0.02248937787499017
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3978 MHz; 4=3962 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:45.163344",
+            "duration": 0.6939609149994794,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23281664,
+            "uptime": 9658.164400100708
+          },
+          "values": [
+            0.02089673049999874,
+            0.020781518750027317,
+            0.02071341687496897
+          ],
+          "warmups": [
+            [
+              8,
+              0.02264876324989018
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-1,5=800 MHz; 2=3900 MHz; 3=3970 MHz; 4=3959 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:45.935532",
+            "duration": 0.6883207390001189,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23285760,
+            "uptime": 9658.936547517776
+          },
+          "values": [
+            0.02078506274983738,
+            0.020643053499952657,
+            0.02062708225003007
+          ],
+          "warmups": [
+            [
+              8,
+              0.022297818625020227
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3980 MHz; 4=3970 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:46.712123",
+            "duration": 0.6919498259994725,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23285760,
+            "uptime": 9659.71317577362
+          },
+          "values": [
+            0.020882390999986455,
+            0.02076306137496431,
+            0.020659565749838293
+          ],
+          "warmups": [
+            [
+              8,
+              0.022510336624918637
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3980 MHz; 4=3965 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:47.485077",
+            "duration": 0.688403076999748,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23281664,
+            "uptime": 9660.486137866974
+          },
+          "values": [
+            0.02073535387512493,
+            0.02060958462493545,
+            0.020572914374952234
+          ],
+          "warmups": [
+            [
+              8,
+              0.02247605612501502
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3943 MHz; 4=3972 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:48.278388",
+            "duration": 0.7098006100004568,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23281664,
+            "uptime": 9661.27943944931
+          },
+          "values": [
+            0.021407598625046376,
+            0.02131755287496162,
+            0.021241390624936685
+          ],
+          "warmups": [
+            [
+              8,
+              0.023066254750119697
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3974 MHz; 4=3971 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:49.053543",
+            "duration": 0.6910534159997042,
+            "load_avg_1min": 1.89,
+            "mem_max_rss": 23285760,
+            "uptime": 9662.05456495285
+          },
+          "values": [
+            0.020836016375142208,
+            0.020675407374938004,
+            0.020650907499884852
+          ],
+          "warmups": [
+            [
+              8,
+              0.022541172125102094
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2=800 MHz; 3=3979 MHz; 4=3900 MHz; 5=3931 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=47 C",
+            "date": "2025-11-19 05:22:49.827102",
+            "duration": 0.6898013600002741,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23281664,
+            "uptime": 9662.828208446503
+          },
+          "values": [
+            0.020819127875029153,
+            0.02068885637504536,
+            0.02064532950021203
+          ],
+          "warmups": [
+            [
+              8,
+              0.022378585999831557
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-1,5=800 MHz; 2=3858 MHz; 3=3977 MHz; 4=3974 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=47 C",
+            "date": "2025-11-19 05:22:50.600246",
+            "duration": 0.6883920119998947,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23285760,
+            "uptime": 9663.601296663284
+          },
+          "values": [
+            0.020755054375058535,
+            0.02065355812510461,
+            0.020582261624895182
+          ],
+          "warmups": [
+            [
+              8,
+              0.022387966749874977
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3978 MHz; 4=3969 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:51.383268",
+            "duration": 0.699436914999751,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23285760,
+            "uptime": 9664.38432264328
+          },
+          "values": [
+            0.02112110087500696,
+            0.02095345924999492,
+            0.02091021987507702
+          ],
+          "warmups": [
+            [
+              8,
+              0.022741685125083677
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0,2,5=800 MHz; 1=3895 MHz; 3=3978 MHz; 4=3976 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=56 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:52.162256",
+            "duration": 0.6949088719993597,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23285760,
+            "uptime": 9665.163303613663
+          },
+          "values": [
+            0.020885480375000043,
+            0.0208209385000373,
+            0.02076867137498084
+          ],
+          "warmups": [
+            [
+              8,
+              0.02271492175009371
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3994 MHz; 4=3944 MHz",
+            "cpu_temp": "coretemp:Package id 0=55 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=55 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:52.943952",
+            "duration": 0.6978607789988018,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23285760,
+            "uptime": 9665.945002317429
+          },
+          "values": [
+            0.021085361125187774,
+            0.020980793749913573,
+            0.02093339549992379
+          ],
+          "warmups": [
+            [
+              8,
+              0.02253995575006229
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0=3980 MHz; 1=3904 MHz; 2-3,5=800 MHz; 4=3968 MHz",
+            "cpu_temp": "coretemp:Package id 0=55 C, coretemp:Core 0=45 C, coretemp:Core 1=45 C, coretemp:Core 2=45 C, coretemp:Core 3=55 C, coretemp:Core 4=46 C, coretemp:Core 5=46 C",
+            "date": "2025-11-19 05:22:53.725974",
+            "duration": 0.6969072200008668,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23281664,
+            "uptime": 9666.72703075409
+          },
+          "values": [
+            0.020996755624992147,
+            0.02090916387510333,
+            0.020965199250213118
+          ],
+          "warmups": [
+            [
+              8,
+              0.022535630499987747
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0,3-5=800 MHz; 1=3973 MHz; 2=3970 MHz",
+            "cpu_temp": "coretemp:Package id 0=55 C, coretemp:Core 0=44 C, coretemp:Core 1=55 C, coretemp:Core 2=45 C, coretemp:Core 3=46 C, coretemp:Core 4=45 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:54.505541",
+            "duration": 0.6942096980001224,
+            "load_avg_1min": 1.82,
+            "mem_max_rss": 23281664,
+            "uptime": 9667.506561517715
+          },
+          "values": [
+            0.02088361150003948,
+            0.02081445462499687,
+            0.02072164499986684
+          ],
+          "warmups": [
+            [
+              8,
+              0.022651388499980385
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0,3-5=800 MHz; 1=4000 MHz; 2=3971 MHz",
+            "cpu_temp": "coretemp:Package id 0=55 C, coretemp:Core 0=44 C, coretemp:Core 1=55 C, coretemp:Core 2=45 C, coretemp:Core 3=46 C, coretemp:Core 4=45 C, coretemp:Core 5=45 C",
+            "date": "2025-11-19 05:22:55.284163",
+            "duration": 0.6936693489988102,
+            "load_avg_1min": 1.75,
+            "mem_max_rss": 23285760,
+            "uptime": 9668.285207509995
+          },
+          "values": [
+            0.020995590374923268,
+            0.020795025749976048,
+            0.02070806637516398
+          ],
+          "warmups": [
+            [
+              8,
+              0.022541270750025433
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0,2,4-5=800 MHz; 1=3989 MHz; 3=3941 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=46 C, coretemp:Core 1=56 C, coretemp:Core 2=44 C, coretemp:Core 3=46 C, coretemp:Core 4=46 C, coretemp:Core 5=44 C",
+            "date": "2025-11-19 05:22:56.067714",
+            "duration": 0.6995920129993465,
+            "load_avg_1min": 1.75,
+            "mem_max_rss": 23285760,
+            "uptime": 9669.06880402565
+          },
+          "values": [
+            0.021087221874950046,
+            0.021232919999874866,
+            0.02087528599986399
+          ],
+          "warmups": [
+            [
+              8,
+              0.022561899875199742
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0-2,5=800 MHz; 3=3976 MHz; 4=3962 MHz",
+            "cpu_temp": "coretemp:Package id 0=56 C, coretemp:Core 0=46 C, coretemp:Core 1=56 C, coretemp:Core 2=44 C, coretemp:Core 3=46 C, coretemp:Core 4=46 C, coretemp:Core 5=44 C",
+            "date": "2025-11-19 05:22:56.842554",
+            "duration": 0.6909374250008113,
+            "load_avg_1min": 1.75,
+            "mem_max_rss": 23281664,
+            "uptime": 9669.843573331833
+          },
+          "values": [
+            0.020880969249901682,
+            0.020769583874880482,
+            0.02063989512498665
+          ],
+          "warmups": [
+            [
+              8,
+              0.022390058000155477
+            ]
+          ]
+        },
+        {
+          "metadata": {
+            "cpu_freq": "0,3-5=800 MHz; 1=4000 MHz; 2=3952 MHz",
+            "cpu_temp": "coretemp:Package id 0=55 C, coretemp:Core 0=45 C, coretemp:Core 1=55 C, coretemp:Core 2=44 C, coretemp:Core 3=45 C, coretemp:Core 4=45 C, coretemp:Core 5=44 C",
+            "date": "2025-11-19 05:22:57.624175",
+            "duration": 0.6962204560004466,
+            "load_avg_1min": 1.75,
+            "mem_max_rss": 23281664,
+            "uptime": 9670.625226974487
+          },
+          "values": [
+            0.02101620999997067,
+            0.020925573124941366,
+            0.020830586125157424
+          ],
+          "warmups": [
+            [
+              8,
+              0.022570428125163744
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "aslr": "No randomization",
+    "boot_time": "2025-11-19 02:41:47",
+    "cpu_config": "0-5=driver:intel_pstate, intel_pstate:turbo, governor:performance; idle:intel_idle",
+    "cpu_count": 6,
+    "cpu_model_name": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+    "description": "The Richards benchmark",
+    "hostname": "ripley",
+    "loops": 8,
+    "name": "richards",
+    "perf_version": "2.9.0",
+    "performance_version": "1.11.0",
+    "platform": "Linux-6.8.0-87-generic-x86_64-with-glibc2.39",
+    "python_cflags": "-fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall",
+    "python_compiler": "GCC 13.3.0",
+    "python_config_args": "'--enable-optimizations' '--with-lto=full' '--enable-experimental-jit=yes' '--enable-option-checking=fatal' 'PKG_CONFIG_PATH=/home/savannah/actions-runner/_work/_tool/Python/3.11.14/x64/lib/pkgconfig'",
+    "python_executable": "/home/savannah/actions-runner/_work/pyperf_bench/pyperf_bench/venv/cpython3.15-fddeadcccb77-compat-64aaec271e6b/bin/python",
+    "python_implementation": "cpython",
+    "python_version": "3.15.0a1+ (64-bit) revision 7b0b708",
+    "runnable_threads": 1,
+    "tags": [],
+    "timer": "clock_gettime(CLOCK_MONOTONIC), resolution: 1.00 ns",
+    "unit": "second",
+    "commit_id": "7b0b708",
+    "commit_fork": "python",
+    "commit_branch": "main",
+    "commit_date": "2025-11-19T09:48:51+08:00",
+    "commit_merge_base": "ce791541769a41beabec0f515cd62e504d46ff1c",
+    "benchmark_hash": "436bb0",
+    "github_action_url": "https://github.com/savannahostrowski/pyperf_bench/actions/runs/19488709243",
+    "github_actor": "savannahostrowski"
+  },
+  "version": "1.0"
+}
