@@ -38,6 +38,11 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-08-02](results/bm-20250802-3.15.0a0-801cf3f-JIT) | Fidget-Spinner/last_good_arm_commit | 801cf3f (JIT) |  |  |  |  |
 | [2025-08-02](results/bm-20250802-3.15.0a0-801cf3f) | Fidget-Spinner/last_good_arm_commit | 801cf3f |  |  |  |  |
 
+## linux x86_64 (ripley)
+| date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT) | python/main | 7b0b708 (JIT) |  |  |  |  |
+
 
 <!-- END table -->
 

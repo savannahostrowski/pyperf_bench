@@ -37,6 +37,11 @@
 | [2025-10-05](results/bm-20251005-3.13.7%2B-ac853ec) | python/3.13 | ac853ec |  |  |  |  |
 | [2025-08-14](results/bm-20250814-3.13.7-bcee1c3) | python/v3.13.7 | bcee1c3 |  |  |  |  |
 
+## linux x86_64 (ripley)
+| date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT) | python/main | 7b0b708 (JIT) |  |  |  |  |
+
 
 <!-- END table -->
 
