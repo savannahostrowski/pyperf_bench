@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (ed73c90)](results/bm-20251115-3.15.0a1%2B-ed73c90/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1%2B-ed73c90-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (ed73c90)](results/bm-20251115-3.15.0a1%2B-ed73c90-PYTHON_UOPS/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1%2B-ed73c90-pystats.md)
+- [Most recent  pystats on main (7b0b708)](results/bm-20251119-3.15.0a1%2B-7b0b708/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (7b0b708)](results/bm-20251119-3.15.0a1%2B-7b0b708-PYTHON_UOPS/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -12,6 +12,8 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT) | python/7b0b70867586ef7109de | 7b0b708 (JIT) |  |  |  | 1.103x ↓<br>[📄](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-vs-base.md)[📈](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-vs-base.svg)[🧠](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1%2B-7b0b708-vs-base-mem.svg) |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708) | python/7b0b70867586ef7109de | 7b0b708 |  |  |  |  |
 | [2025-11-19](results/bm-20251119-3.15.0a1%2B-652c764-JIT) | python/652c764a59913327b28b | 652c764 (JIT) |  |  |  |  |
 | [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61-JIT) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 (JIT) |  |  |  |  |
 | [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 |  |  |  |  |
@@ -40,7 +42,8 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT) | python/main | 7b0b708 (JIT) |  |  |  |  |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT) | python/main | 7b0b708 (JIT) |  |  |  | 1.974x ↑<br>[📄](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-ripley-x86_64-python-main-3.15.0a1%2B-7b0b708-vs-base.md)[📈](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-ripley-x86_64-python-main-3.15.0a1%2B-7b0b708-vs-base.svg)[🧠](results/bm-20251119-3.15.0a1%2B-7b0b708-JIT/bm-20251119-ripley-x86_64-python-main-3.15.0a1%2B-7b0b708-vs-base-mem.svg) |
+| [2025-11-19](results/bm-20251119-3.15.0a1%2B-7b0b708) | python/7b0b70867586ef7109de | 7b0b708 |  |  |  |  |
 
 
 <!-- END table -->
