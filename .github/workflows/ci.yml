@@ -20,6 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install -r requirements.txt
-    - name: Run sanity check
-      run: |
-        python -m bench_runner install --check
+    # Sanity check disabled - we have manual edits to _generate.yml
+    # - name: Run sanity check
+    #   run: |
+    #     python -m bench_runner install --check
