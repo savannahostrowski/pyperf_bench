@@ -1,10 +1,11 @@
 # Generated file: !!! DO NOT EDIT !!!
 ---
-name: _nightly
+name: _weekly
 
 on:
-  schedule:
-  - cron: 0 0 * * *
+  # Weekly schedule disabled
+  # schedule:
+  # - cron: 0 0 * * 0
   workflow_dispatch: {}
 
 jobs:
@@ -41,7 +42,7 @@ jobs:
 
   pystats-tier2:
     uses: ./.github/workflows/_pystats.yml
-    needs: [determine_head, pystats]
+    needs: determine_head
     with:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
@@ -54,8 +55,8 @@ jobs:
     if: ${{ always() }}
     with:
       force: false
-    needs: [pystats, pystats-tier2, nightly-default-blueberry, 
-        nightly-default-ripley, nightly-jit-blueberry, nightly-jit-ripley]
+    needs: [pystats, pystats-tier2, weekly-default-blueberry, 
+        weekly-default-ripley]
     secrets: inherit
 
   publish:
@@ -63,7 +64,7 @@ jobs:
     if: ${{ always() }}
     needs: [generate]
     secrets: inherit
-  nightly-default-blueberry:
+  weekly-default-blueberry:
     uses: ./.github/workflows/_benchmark.yml
     needs: determine_head
     with:
@@ -77,7 +78,7 @@ jobs:
       nogil: false
       tailcall: false
     secrets: inherit
-  nightly-default-ripley:
+  weekly-default-ripley:
     uses: ./.github/workflows/_benchmark.yml
     needs: determine_head
     with:
@@ -88,34 +89,6 @@ jobs:
       pgo: true
       tier2: false
       jit: false
-      nogil: false
-      tailcall: false
-    secrets: inherit
-  nightly-jit-blueberry:
-    uses: ./.github/workflows/_benchmark.yml
-    needs: determine_head
-    with:
-      fork: python
-      ref: ${{ needs.determine_head.outputs.commit }}
-      machine: linux-arm64-blueberry
-      benchmarks: all_and_excluded
-      pgo: true
-      tier2: false
-      jit: true
-      nogil: false
-      tailcall: false
-    secrets: inherit
-  nightly-jit-ripley:
-    uses: ./.github/workflows/_benchmark.yml
-    needs: determine_head
-    with:
-      fork: python
-      ref: ${{ needs.determine_head.outputs.commit }}
-      machine: linux-x86_64-ripley
-      benchmarks: all_and_excluded
-      pgo: true
-      tier2: false
-      jit: true
       nogil: false
       tailcall: false
     secrets: inherit

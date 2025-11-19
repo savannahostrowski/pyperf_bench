@@ -15,7 +15,8 @@ excluded_benchmarks = []
 [notify]
 # The number of the issue in your repo that will have comments added to
 # it to send nofications
-notification_issue = 182
+# Set to 0 to disable notifications
+notification_issue = 0
 
 # Each of the "runners" section has the following values:
 # os: one of 'linux', 'darwin', 'windows'
@@ -50,17 +51,24 @@ hostname="blueberry"
 available = true
 use_cores = 4
 
+[runners.ripley]
+os="linux"
+arch="x86_64"
+hostname="ripley"
+available = true
+use_cores = 6
+
 [publish_mirror]
-skip = false
+skip = true
 
 [weekly]
 # Weekly runs disabled - using nightly instead
 
 [nightly.default]
-runners = ["blueberry"]
+runners = ["blueberry", "ripley"]
 flags = []
 
 [nightly.jit]
-runners = ["blueberry"]
+runners = ["blueberry", "ripley"]
 flags = ["JIT"]
 

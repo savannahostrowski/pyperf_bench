@@ -9,6 +9,7 @@
 
 
 from pathlib import Path
+import os
 import shutil
 import subprocess
 import sys
@@ -52,7 +53,16 @@ def run_in_venv(
 
 def install_requirements(venv: Path) -> None:
     run_in_venv(venv, "pip", ["install", "--upgrade", "pip"])
-    run_in_venv(venv, "pip", ["install", "-r", "requirements.txt"])
+
+    # Install bench_runner from the branch specified in BENCH_RUNNER_BRANCH env var
+    # or fall back to requirements.txt
+    bench_runner_branch = os.environ.get("BENCH_RUNNER_BRANCH")
+    if bench_runner_branch:
+        bench_runner_url = f"git+https://github.com/savannahostrowski/bench_runner.git@{bench_runner_branch}"
+        print(f"Installing bench_runner from branch: {bench_runner_branch}")
+        run_in_venv(venv, "pip", ["install", bench_runner_url])
+    else:
+        run_in_venv(venv, "pip", ["install", "-r", "requirements.txt"])
 
     # To facilitate coverage testing
     if "--_fast" in sys.argv:
