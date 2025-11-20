@@ -50,6 +50,11 @@
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT) | python/b3b63e8d6d296b879fdd | b3b63e8 (JIT) |  |  |  | 1.005x ↑<br>[📄](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-ripley-x86_64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base.md)[📈](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-ripley-x86_64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base.svg)[🧠](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-ripley-x86_64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base-mem.svg) |
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-b3b63e8) | python/b3b63e8d6d296b879fdd | b3b63e8 |  |  |  |  |
 
+## darwin arm64 (jones)
+| date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a2%2B-bc9b9d4) | python/main | bc9b9d4 |  |  |  |  |
+
 
 <!-- END table -->
 
