@@ -8,8 +8,8 @@
 # the error message that the version of Python is too old.
 
 
-from pathlib import Path
 import os
+from pathlib import Path
 import shutil
 import subprocess
 import sys

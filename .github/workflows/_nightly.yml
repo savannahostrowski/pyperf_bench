@@ -55,15 +55,15 @@ jobs:
     with:
       force: false
     needs: [pystats, pystats-tier2, nightly-default-blueberry, 
-        nightly-default-ripley, nightly-jit-blueberry, nightly-jit-ripley]
+        nightly-default-ripley, nightly-default-jones, nightly-jit-blueberry, 
+        nightly-jit-ripley, nightly-jit-jones]
     secrets: inherit
 
-  # Publish/mirror disabled (publish_mirror.skip = true in bench_runner.toml)
-  # publish:
-  #   uses: ./.github/workflows/_publish.yml
-  #   if: ${{ always() }}
-  #   needs: [generate]
-  #   secrets: inherit
+  publish:
+    uses: ./.github/workflows/_publish.yml
+    if: ${{ always() }}
+    needs: [generate]
+    secrets: inherit
   nightly-default-blueberry:
     uses: ./.github/workflows/_benchmark.yml
     needs: determine_head
@@ -85,6 +85,20 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: linux-x86_64-ripley
+      benchmarks: all_and_excluded
+      pgo: true
+      tier2: false
+      jit: false
+      nogil: false
+      tailcall: false
+    secrets: inherit
+  nightly-default-jones:
+    uses: ./.github/workflows/_benchmark.yml
+    needs: determine_head
+    with:
+      fork: python
+      ref: ${{ needs.determine_head.outputs.commit }}
+      machine: darwin-arm64-jones
       benchmarks: all_and_excluded
       pgo: true
       tier2: false
@@ -120,10 +134,24 @@ jobs:
       nogil: false
       tailcall: false
     secrets: inherit
+  nightly-jit-jones:
+    uses: ./.github/workflows/_benchmark.yml
+    needs: determine_head
+    with:
+      fork: python
+      ref: ${{ needs.determine_head.outputs.commit }}
+      machine: darwin-arm64-jones
+      benchmarks: all_and_excluded
+      pgo: true
+      tier2: false
+      jit: true
+      nogil: false
+      tailcall: false
+    secrets: inherit
 
   trigger-dashboard:
     runs-on: ubuntu-latest
-    needs: [nightly-default-blueberry, nightly-default-ripley, nightly-jit-blueberry, nightly-jit-ripley]
+    needs: [nightly-default-blueberry, nightly-default-ripley, nightly-default-jones, nightly-jit-blueberry, nightly-jit-ripley, nightly-jit-jones]
     if: ${{ success() }}
     steps:
     - name: Trigger dashboard update

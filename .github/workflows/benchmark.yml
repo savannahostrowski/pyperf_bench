@@ -22,6 +22,7 @@ on:
         options:
         - linux-arm64-blueberry
         - linux-x86_64-ripley
+        - darwin-arm64-jones
         - all
         - __really_all
       benchmarks:

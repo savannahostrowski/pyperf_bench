@@ -58,6 +58,13 @@ hostname="ripley"
 available = true
 use_cores = 6
 
+[runners.jones]
+os="darwin"
+arch="arm64"
+hostname="jones.local"
+available = true
+use_cores = 11
+
 [publish_mirror]
 skip = true
 
@@ -65,10 +72,10 @@ skip = true
 # Weekly runs disabled - using nightly instead
 
 [nightly.default]
-runners = ["blueberry", "ripley"]
+runners = ["blueberry", "ripley", "jones"]
 flags = []
 
 [nightly.jit]
-runners = ["blueberry", "ripley"]
+runners = ["blueberry", "ripley", "jones"]
 flags = ["JIT"]
 

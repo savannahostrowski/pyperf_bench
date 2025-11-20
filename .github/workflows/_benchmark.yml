@@ -61,6 +61,7 @@ on:
         options:
         - linux-arm64-blueberry
         - linux-x86_64-ripley
+        - darwin-arm64-jones
         - all
       benchmarks:
         description: Benchmarks to run (comma-separated; empty runs all 
@@ -203,6 +204,47 @@ jobs:
           profiling/results
 
     if: ${{ (inputs.machine == 'linux-x86_64-ripley' || inputs.machine == 
+      '__really_all' || inputs.machine == 'all') }}
+    env:
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true
+        && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{ 
+        inputs.tailcall == true && 'tailcall' || '' }}
+  benchmark-darwin-arm64-jones:
+    runs-on: [self-hosted, macos, bare-metal, darwin-arm64-jones]
+
+    steps:
+    - name: Setup environment
+      run: |-
+        echo "BENCHMARK_MACHINE_NICKNAME=jones" >> $GITHUB_ENV
+        echo "BENCH_RUNNER_BRANCH=main" >> $GITHUB_ENV
+    - name: Checkout benchmarking
+      uses: actions/checkout@v4
+    - name: git gc
+      run: |
+        git gc
+    - name: Building Python and running pyperformance
+      run: |
+        python3 workflow_bootstrap.py ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{ inputs.tailcall == true && 'tailcall' || '' }} ${{ inputs.force && '--force' || '' }} ${{ inputs.pgo && '--pgo' || '' }} --run_id ${{ github.run_id }}
+      # Pull again, since another job may have committed results in the meantime
+    - name: Pull benchmarking
+      run: |
+        # Another benchmarking task may have created results for the same
+        # commit while the above was running. This "magic" incantation means
+        # that any local results for this commit will override anything we
+        # just pulled in in that case.
+        git pull -s recursive -X ours --autostash --rebase
+    - name: Add data to repo
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: results
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: benchmark
+        path: |
+          benchmark.json
+        overwrite: true
+    if: ${{ (inputs.machine == 'darwin-arm64-jones' || inputs.machine == 
       '__really_all' || inputs.machine == 'all') }}
     env:
       flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true
