@@ -12,7 +12,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 
 <!-- START table -->
 - [Most recent  pystats on main (ca1e86f)](results/bm-20251119-3.15.0a2%2B-ca1e86f/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (b3b63e8)](results/bm-20251119-3.15.0a2%2B-b3b63e8-PYTHON_UOPS/bm-20251119-blueberry-aarch64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (ca1e86f)](results/bm-20251119-3.15.0a2%2B-ca1e86f-PYTHON_UOPS/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -22,6 +22,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT) | python/ca1e86f9d963dc298d9a | ca1e86f (JIT) |  |  |  | 1.073x ↓<br>[📄](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.md)[📈](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.svg)[🧠](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base-mem.svg) |
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f) | python/ca1e86f9d963dc298d9a | ca1e86f |  |  |  |  |
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT) | python/b3b63e8d6d296b879fdd | b3b63e8 (JIT) |  |  |  | 1.027x ↓<br>[📄](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-blueberry-aarch64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base.md)[📈](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-blueberry-aarch64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base.svg)[🧠](results/bm-20251119-3.15.0a2%2B-b3b63e8-JIT/bm-20251119-blueberry-aarch64-python-b3b63e8d6d296b879fdd-3.15.0a2%2B-b3b63e8-vs-base-mem.svg) |
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-b3b63e8) | python/b3b63e8d6d296b879fdd | b3b63e8 |  |  |  |  |
