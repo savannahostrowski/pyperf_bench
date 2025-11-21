@@ -1,0 +1,26 @@
+# Results
+
+- fork: python/77cb39e0c7ef606ef68a
+- version: 3.15.0a2+
+- config: 
+- commit hash: [77cb39e](https://github.com/python/cpython/commit/77cb39e)
+- commit date: 2025-11-20T18:41:58+00:00
+- commit merge base: [b3383085f9c63cf4034bec13c5b20140757bebc9](https://github.com/python/cpython/commit/b3383085f9c63cf4034bec13c5b20140757bebc9)
+- ref: 77cb39e0c7ef606ef68a
+
+## linux aarch64 (blueberry)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19555416583)
+- cpu model: missing
+- platform: Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.36
+- [pystats raw](bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-pystats.json)
+- [pystats table](bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-pystats.md)
+- [raw results](bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e.json)
+
+## linux x86_64 (ripley)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19555416583)
+- cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+- platform: Linux-6.8.0-87-generic-x86_64-with-glibc2.39
+- [raw results](bm-20251120-ripley-x86_64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e.json)
+
