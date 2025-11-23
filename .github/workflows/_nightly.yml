@@ -71,7 +71,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: linux-arm64-blueberry
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: false
@@ -85,7 +85,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: linux-x86_64-ripley
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: false
@@ -99,7 +99,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: darwin-arm64-jones
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: false
@@ -113,7 +113,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: linux-arm64-blueberry
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: true
@@ -127,7 +127,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: linux-x86_64-ripley
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: true
@@ -141,7 +141,7 @@ jobs:
       fork: python
       ref: ${{ needs.determine_head.outputs.commit }}
       machine: darwin-arm64-jones
-      benchmarks: all_and_excluded
+      benchmarks: all
       pgo: true
       tier2: false
       jit: true
