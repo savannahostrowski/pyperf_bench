@@ -10,6 +10,7 @@ compare_to_default = []
 
 [benchmarks]
 # List any benchmarks you want to exclude from results here
+excluded_benchmarks = ["djangocms", "flaskblogging"]
 
 [notify]
 # The number of the issue in your repo that will have comments added to
