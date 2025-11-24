@@ -30,11 +30,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-11-21](results/bm-20251121-3.15.0a2%2B-92972ae) | python/92972aea0f0e12dd21bf | 92972ae |  |  |  |  |
 | [2025-11-20](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT) | python/77cb39e0c7ef606ef68a | 77cb39e (JIT) |  |  |  | 1.066x ↓<br>[📄](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base.md)[📈](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base.svg)[🧠](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-blueberry-aarch64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base-mem.svg) |
 | [2025-11-20](results/bm-20251120-3.15.0a2%2B-77cb39e) | python/77cb39e0c7ef606ef68a | 77cb39e |  |  |  |  |
-| [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT) | python/ca1e86f9d963dc298d9a | ca1e86f (JIT) |  |  |  | 1.073x ↓<br>[📄](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.md)[📈](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.svg)[🧠](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base-mem.svg) |
-| [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f) | python/ca1e86f9d963dc298d9a | ca1e86f |  |  |  |  |
 | [2025-11-20](results/bm-20251120-3.15.0a1%2B-66a12ad-JIT) | Fidget-Spinner/jit_lower_trace_limi | 66a12ad (JIT) |  |  |  |  |
-| [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61-TAILCALL) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 (TAILCALL) |  |  |  |  |
-| [2025-11-18](results/bm-20251118-3.15.0a1%2B-1f50f61-JIT%2CTAILCALL) | Fidget-Spinner/jit_lower_trace_limi | 1f50f61 (JIT) (TAILCALL) |  |  |  |  |
 
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -47,8 +43,6 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-11-21](results/bm-20251121-3.15.0a2%2B-92972ae) | python/92972aea0f0e12dd21bf | 92972ae |  |  |  |  |
 | [2025-11-20](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT) | python/77cb39e0c7ef606ef68a | 77cb39e (JIT) |  |  |  | 1.010x ↑<br>[📄](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-ripley-x86_64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base.md)[📈](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-ripley-x86_64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base.svg)[🧠](results/bm-20251120-3.15.0a2%2B-77cb39e-JIT/bm-20251120-ripley-x86_64-python-77cb39e0c7ef606ef68a-3.15.0a2%2B-77cb39e-vs-base-mem.svg) |
 | [2025-11-20](results/bm-20251120-3.15.0a2%2B-77cb39e) | python/77cb39e0c7ef606ef68a | 77cb39e |  |  |  |  |
-| [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT) | python/ca1e86f9d963dc298d9a | ca1e86f (JIT) |  |  |  | 1.013x ↑<br>[📄](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-ripley-x86_64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.md)[📈](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-ripley-x86_64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base.svg)[🧠](results/bm-20251119-3.15.0a2%2B-ca1e86f-JIT/bm-20251119-ripley-x86_64-python-ca1e86f9d963dc298d9a-3.15.0a2%2B-ca1e86f-vs-base-mem.svg) |
-| [2025-11-19](results/bm-20251119-3.15.0a2%2B-ca1e86f) | python/ca1e86f9d963dc298d9a | ca1e86f |  |  |  |  |
 
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
