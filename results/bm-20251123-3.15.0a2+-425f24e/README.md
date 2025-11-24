@@ -24,3 +24,10 @@
 - platform: Linux-6.8.0-87-generic-x86_64-with-glibc2.39
 - [raw results](bm-20251123-ripley-x86_64-python-425f24e4fad672c21130-3.15.0a2%2B-425f24e.json)
 
+## darwin arm64 (jones)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19622867805)
+- cpu model: missing
+- platform: macOS-15.6.1-arm64-arm-64bit-Mach-O
+- [raw results](bm-20251123-jones-arm64-python-425f24e4fad672c21130-3.15.0a2%2B-425f24e.json)
+
