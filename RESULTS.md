@@ -2,7 +2,7 @@
 
 <!-- START table -->
 - [Most recent  pystats on main (425f24e)](results/bm-20251123-3.15.0a2%2B-425f24e/bm-20251123-blueberry-aarch64-python-425f24e4fad672c21130-3.15.0a2%2B-425f24e-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (227b9d3)](results/bm-20251122-3.15.0a2%2B-227b9d3-PYTHON_UOPS/bm-20251122-blueberry-aarch64-python-227b9d326ec7eba35942-3.15.0a2%2B-227b9d3-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (425f24e)](results/bm-20251123-3.15.0a2%2B-425f24e-PYTHON_UOPS/bm-20251123-blueberry-aarch64-python-425f24e4fad672c21130-3.15.0a2%2B-425f24e-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
