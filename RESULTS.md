@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (8801c6d)](results/bm-20251202-3.15.0a2%2B-8801c6d/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (8801c6d)](results/bm-20251202-3.15.0a2%2B-8801c6d-PYTHON_UOPS/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-pystats.md)
+- [Most recent  pystats on main (c525204)](results/bm-20251203-3.15.0a2%2B-c525204/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (c525204)](results/bm-20251203-3.15.0a2%2B-c525204-PYTHON_UOPS/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -12,6 +12,8 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.063x ↓<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT) | python/8801c6dec79275e9b588 | 8801c6d (JIT) |  |  |  | 1.040x ↓<br>[📄](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.md)[📈](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.svg)[🧠](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base-mem.svg) |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d) | python/8801c6dec79275e9b588 | 8801c6d |  |  |  |  |
 | [2025-12-01](results/bm-20251201-3.15.0a2%2B-eb89286-JIT) | python/eb892868b31322d7cf27 | eb89286 (JIT) |  |  |  | 1.168x ↓<br>[📄](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-blueberry-aarch64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.md)[📈](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-blueberry-aarch64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.svg)[🧠](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-blueberry-aarch64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base-mem.svg) |
@@ -77,6 +79,8 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.024x ↑<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT) | python/8801c6dec79275e9b588 | 8801c6d (JIT) |  |  |  | 1.013x ↑<br>[📄](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.md)[📈](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.svg)[🧠](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base-mem.svg) |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d) | python/8801c6dec79275e9b588 | 8801c6d |  |  |  |  |
 | [2025-12-01](results/bm-20251201-3.15.0a2%2B-eb89286-JIT) | python/eb892868b31322d7cf27 | eb89286 (JIT) |  |  |  | 1.014x ↑<br>[📄](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-ripley-x86_64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.md)[📈](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-ripley-x86_64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.svg)[🧠](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-ripley-x86_64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base-mem.svg) |
@@ -117,6 +121,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.084x ↑<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
+| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT) | python/8801c6dec79275e9b588 | 8801c6d (JIT) |  |  |  | 1.066x ↑<br>[📄](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-jones-arm64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.md)[📈](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-jones-arm64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.svg)[🧠](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-jones-arm64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base-mem.svg) |
 | [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d) | python/8801c6dec79275e9b588 | 8801c6d |  |  |  |  |
 | [2025-12-01](results/bm-20251201-3.15.0a2%2B-eb89286-JIT) | python/eb892868b31322d7cf27 | eb89286 (JIT) |  |  |  | 1.067x ↑<br>[📄](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-jones-arm64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.md)[📈](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-jones-arm64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base.svg)[🧠](results/bm-20251201-3.15.0a2%2B-eb89286-JIT/bm-20251201-jones-arm64-python-eb892868b31322d7cf27-3.15.0a2%2B-eb89286-vs-base-mem.svg) |
