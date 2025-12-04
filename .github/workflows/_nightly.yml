@@ -59,11 +59,6 @@ jobs:
         nightly-jit-ripley, nightly-jit-jones]
     secrets: inherit
 
-  publish:
-    uses: ./.github/workflows/_publish.yml
-    if: ${{ always() }}
-    needs: [generate]
-    secrets: inherit
   nightly-default-blueberry:
     uses: ./.github/workflows/_benchmark.yml
     needs: determine_head
