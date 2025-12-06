@@ -11,8 +11,8 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 **Key:** 📄: table, 📈: time plot, 🧠: memory plot
 
 <!-- START table -->
-- [Most recent  pystats on main (eba449a)](results/bm-20251205-3.15.0a2%2B-eba449a/bm-20251205-blueberry-aarch64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (b3bf212)](results/bm-20251204-3.15.0a2%2B-b3bf212-PYTHON_UOPS/bm-20251204-blueberry-aarch64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-pystats.md)
+- [Most recent  pystats on main (eba449a)](results/bm-20251205-3.15.0a2%2B-eba449a/bm-20251205-ripley-x86_64-python-main-3.15.0a2%2B-eba449a-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (eba449a)](results/bm-20251205-3.15.0a2%2B-eba449a-PYTHON_UOPS/bm-20251205-blueberry-aarch64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -22,6 +22,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2025-12-05](results/bm-20251205-3.15.0a2%2B-eba449a-JIT) | python/eba449a1989265a92317 | eba449a (JIT) |  |  |  | 1.058x ↓<br>[📄](results/bm-20251205-3.15.0a2%2B-eba449a-JIT/bm-20251205-blueberry-aarch64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a-vs-base.md)[📈](results/bm-20251205-3.15.0a2%2B-eba449a-JIT/bm-20251205-blueberry-aarch64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a-vs-base.svg)[🧠](results/bm-20251205-3.15.0a2%2B-eba449a-JIT/bm-20251205-blueberry-aarch64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a-vs-base-mem.svg) |
 | [2025-12-05](results/bm-20251205-3.15.0a2%2B-eba449a) | python/eba449a1989265a92317 | eba449a |  |  |  |  |
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT) | python/b3bf2128989e550a7a02 | b3bf212 (JIT) |  |  |  | 1.078x ↓<br>[📄](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-blueberry-aarch64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base.md)[📈](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-blueberry-aarch64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base.svg)[🧠](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-blueberry-aarch64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base-mem.svg) |
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212) | python/b3bf2128989e550a7a02 | b3bf212 |  |  |  |  |
