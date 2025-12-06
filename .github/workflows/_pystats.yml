@@ -74,7 +74,7 @@ on:
         default: false
 jobs:
   collect-stats:
-    runs-on: [self-hosted, linux, cloud]
+  runs-on: [self-hosted, linux, bare-metal, linux-x86_64-ripley]
     steps:
     - name: Checkout benchmarking
       uses: actions/checkout@v4
