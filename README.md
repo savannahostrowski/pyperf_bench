@@ -49,6 +49,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212) | python/b3bf2128989e550a7a02 | b3bf212 |  |  |  |  |
 | [2025-12-06](results/bm-20251206-3.14.2-00bf18d) | Fidget-Spinner/paper_3.14.2_noopt | 00bf18d |  |  |  |  |
 | [2025-12-05](results/bm-20251205-3.14.2-df79316-JIT) | Fidget-Spinner/paper_3.14.2 | df79316 (JIT) |  |  |  |  |
+| [2025-12-05](results/bm-20251205-3.14.2-df79316) | Fidget-Spinner/paper_3.14.2 | df79316 |  |  |  |  |
 
 
 <!-- END table -->
