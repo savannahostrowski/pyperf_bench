@@ -158,6 +158,7 @@
 | [2025-11-23](results/bm-20251123-3.15.0a2%2B-425f24e) | python/425f24e4fad672c21130 | 425f24e |  |  |  |  |
 | [2025-11-19](results/bm-20251119-3.15.0a2%2B-bc9b9d4) | python/main | bc9b9d4 |  |  |  |  |
 | [2025-12-06](results/bm-20251206-3.14.2-00bf18d) | Fidget-Spinner/paper_3.14.2_noopt | 00bf18d |  |  |  |  |
+| [2025-12-05](results/bm-20251205-3.14.2-df79316-JIT) | Fidget-Spinner/paper_3.14.2 | df79316 (JIT) |  |  |  |  |
 
 
 <!-- END table -->
