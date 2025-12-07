@@ -28,8 +28,6 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212) | python/b3bf2128989e550a7a02 | b3bf212 |  |  |  |  |
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.063x ↓<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-blueberry-aarch64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
-| [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT) | python/8801c6dec79275e9b588 | 8801c6d (JIT) |  |  |  | 1.040x ↓<br>[📄](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.md)[📈](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.svg)[🧠](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-blueberry-aarch64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base-mem.svg) |
-| [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d) | python/8801c6dec79275e9b588 | 8801c6d |  |  |  |  |
 
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -40,8 +38,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212) | python/b3bf2128989e550a7a02 | b3bf212 |  |  |  |  |
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.024x ↑<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
-| [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT) | python/8801c6dec79275e9b588 | 8801c6d (JIT) |  |  |  | 1.013x ↑<br>[📄](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.md)[📈](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base.svg)[🧠](results/bm-20251202-3.15.0a2%2B-8801c6d-JIT/bm-20251202-ripley-x86_64-python-8801c6dec79275e9b588-3.15.0a2%2B-8801c6d-vs-base-mem.svg) |
-| [2025-12-02](results/bm-20251202-3.15.0a2%2B-8801c6d) | python/8801c6dec79275e9b588 | 8801c6d |  |  |  |  |
+| [2025-12-06](results/bm-20251206-3.14.2-00bf18d) | Fidget-Spinner/paper_3.14.2_noopt | 00bf18d |  |  |  |  |
 
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -50,8 +47,6 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-12-05](results/bm-20251205-3.15.0a2%2B-eba449a) | python/eba449a1989265a92317 | eba449a |  |  |  |  |
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT) | python/b3bf2128989e550a7a02 | b3bf212 (JIT) |  |  |  | 1.023x ↑<br>[📄](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-jones-arm64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base.md)[📈](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-jones-arm64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base.svg)[🧠](results/bm-20251204-3.15.0a2%2B-b3bf212-JIT/bm-20251204-jones-arm64-python-b3bf2128989e550a7a02-3.15.0a2%2B-b3bf212-vs-base-mem.svg) |
 | [2025-12-04](results/bm-20251204-3.15.0a2%2B-b3bf212) | python/b3bf2128989e550a7a02 | b3bf212 |  |  |  |  |
-| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.084x ↑<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-jones-arm64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
-| [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
 | [2025-12-06](results/bm-20251206-3.14.2-00bf18d) | Fidget-Spinner/paper_3.14.2_noopt | 00bf18d |  |  |  |  |
 
 
