@@ -39,6 +39,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204-JIT) | python/c5252045d3a7164f1829 | c525204 (JIT) |  |  |  | 1.024x ↑<br>[📄](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.md)[📈](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base.svg)[🧠](results/bm-20251203-3.15.0a2%2B-c525204-JIT/bm-20251203-ripley-x86_64-python-c5252045d3a7164f1829-3.15.0a2%2B-c525204-vs-base-mem.svg) |
 | [2025-12-03](results/bm-20251203-3.15.0a2%2B-c525204) | python/c5252045d3a7164f1829 | c525204 |  |  |  |  |
 | [2025-12-06](results/bm-20251206-3.14.2-00bf18d) | Fidget-Spinner/paper_3.14.2_noopt | 00bf18d |  |  |  |  |
+| [2025-12-05](results/bm-20251205-3.14.2-df79316-JIT) | Fidget-Spinner/paper_3.14.2 | df79316 (JIT) |  |  |  |  |
 
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
