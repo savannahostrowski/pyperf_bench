@@ -24,6 +24,8 @@
 - cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
 - platform: Linux-6.8.0-87-generic-x86_64-with-glibc2.39
 - [raw results](bm-20251205-ripley-x86_64-python-eba449a1989265a92317-3.15.0a2%2B-eba449a.json)
+- [pystats raw](bm-20251205-ripley-x86_64-python-main-3.15.0a2%2B-eba449a-pystats.json)
+- [pystats table](bm-20251205-ripley-x86_64-python-main-3.15.0a2%2B-eba449a-pystats.md)
 
 ## darwin arm64 (jones)
 
