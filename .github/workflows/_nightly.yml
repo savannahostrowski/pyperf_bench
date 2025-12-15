@@ -99,7 +99,7 @@ jobs:
       tier2: false
       jit: false
       nogil: false
-      tailcall: false
+      tailcall: true
     secrets: inherit
   nightly-jit-blueberry:
     uses: ./.github/workflows/_benchmark.yml
@@ -141,7 +141,7 @@ jobs:
       tier2: false
       jit: true
       nogil: false
-      tailcall: false
+      tailcall: true
     secrets: inherit
 
   trigger-dashboard:
