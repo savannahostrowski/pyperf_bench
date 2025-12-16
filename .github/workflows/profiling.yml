@@ -56,7 +56,7 @@ jobs:
       # Collect tier1/default profiling
       - name: Collect tier1 profiling
         run: |
-          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all "" --perf --run_id ${{ github.run_id }}
+          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all ,,,, --perf --run_id ${{ github.run_id }}
 
       - name: Move tier1 results
         run: |
@@ -67,9 +67,7 @@ jobs:
       # Collect JIT profiling
       - name: Collect JIT profiling
         run: |
-          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all "jit" --perf --run_id ${{ github.run_id }}
-        env:
-          PYTHON_JIT: "1"
+          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all ,jit,, --perf --run_id ${{ github.run_id }}
 
       - name: Move JIT results
         run: |
