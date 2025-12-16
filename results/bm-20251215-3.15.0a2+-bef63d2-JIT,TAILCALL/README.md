@@ -15,3 +15,7 @@
 - platform: macOS-26.1-arm64-arm-64bit-Mach-O
 - [raw results](bm-20251215-jones-arm64-python-bef63d2fb81ae2876004-3.15.0a2%2B-bef63d2.json)
 
+### vs. Interpreter (with tail calls)
+
+- Geometric mean: 1.04x faster (HPT: reliability of 100.00%, 1.01x faster at 99th %ile)
+
