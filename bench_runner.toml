@@ -71,10 +71,19 @@ skip = true
 # Weekly runs disabled - using nightly instead
 
 [nightly.default]
-runners = ["blueberry", "ripley", "jones"]
+runners = ["blueberry", "ripley"]
 flags = []
 
 [nightly.jit]
-runners = ["blueberry", "ripley", "jones"]
+runners = ["blueberry", "ripley"]
 flags = ["JIT"]
+
+# jones (macOS) uses tail calls for both default and JIT builds
+[nightly.default-tailcall]
+runners = ["jones"]
+flags = ["TAILCALL"]
+
+[nightly.jit-tailcall]
+runners = ["jones"]
+flags = ["JIT", "TAILCALL"]
 

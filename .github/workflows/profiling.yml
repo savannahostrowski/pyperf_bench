@@ -1,0 +1,147 @@
+name: Weekly Profiling
+
+on:
+  schedule:
+    # Every Sunday at 4am UTC
+    - cron: "0 4 * * 0"
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Branch, tag or SHA to profile (default: main)"
+        type: string
+        default: "main"
+
+jobs:
+  determine_head:
+    runs-on: ubuntu-latest
+    outputs:
+      commit: ${{ steps.head.outputs.commit }}
+    steps:
+      - name: Checkout CPython
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          repository: python/cpython
+          path: cpython
+          ref: ${{ inputs.ref || 'main' }}
+      - name: Determine head commit
+        id: head
+        run: |
+          cd cpython
+          git log -n 1 --format="commit=%H" >> $GITHUB_OUTPUT
+
+  collect-profiling:
+    needs: determine_head
+    runs-on: [self-hosted, linux, bare-metal, linux-x86_64-ripley]
+    timeout-minutes: 1440
+    steps:
+      - name: Setup environment
+        run: |
+          echo "BENCHMARK_MACHINE_NICKNAME=ripley" >> $GITHUB_ENV
+          echo "BENCH_RUNNER_BRANCH=main" >> $GITHUB_ENV
+
+      - name: Checkout benchmarking
+        uses: actions/checkout@v4
+
+      - name: git gc
+        run: git gc
+
+      - uses: fregante/setup-git-user@v2
+
+      - name: Setup system Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Collect tier1/default profiling
+      - name: Collect tier1 profiling
+        run: |
+          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all "" --perf --run_id ${{ github.run_id }}
+
+      - name: Move tier1 results
+        run: |
+          mkdir -p profiling-collected/tier1
+          mv profiling/results/* profiling-collected/tier1/
+          rm -rf profiling cpython
+
+      # Collect JIT profiling
+      - name: Collect JIT profiling
+        run: |
+          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all "jit" --perf --run_id ${{ github.run_id }}
+        env:
+          PYTHON_JIT: "1"
+
+      - name: Move JIT results
+        run: |
+          mkdir -p profiling-collected/jit
+          mv profiling/results/* profiling-collected/jit/
+
+      - name: Upload all profiling artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: profiling-all
+          path: profiling-collected
+
+  process-and-commit:
+    needs: [determine_head, collect-profiling]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout benchmarking repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install bench_runner
+        run: |
+          pip install bench_runner matplotlib numpy
+
+      - name: Download profiling artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: profiling-all
+          path: profiling-collected
+
+      - name: Generate tier1 profiling plots
+        run: |
+          mkdir -p profiling/results/tier1
+          cp profiling-collected/tier1/* profiling/results/tier1/
+          python -m bench_runner profiling_plot profiling/results/tier1 profiling/tier1
+
+      - name: Generate JIT profiling plots
+        run: |
+          mkdir -p profiling/results/jit
+          cp profiling-collected/jit/* profiling/results/jit/
+          python -m bench_runner profiling_plot profiling/results/jit profiling/jit
+
+      - name: Create README
+        run: |
+          cat > profiling/README.md << EOF
+          # Profiling Results
+
+          **Commit:** ${{ needs.determine_head.outputs.commit }}
+          **Date:** $(date -u +%Y-%m-%d)
+
+          ## Configurations
+
+          - [tier1](tier1.md) - Default interpreter
+          - [jit](jit.md) - JIT enabled
+
+          ## Visualizations
+
+          ### Tier 1 (Default)
+          ![tier1](tier1.svg)
+
+          ### JIT
+          ![jit](jit.svg)
+          EOF
+
+      - uses: fregante/setup-git-user@v2
+
+      - name: Commit profiling results
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: profiling
+          message: "Add profiling data for ${{ needs.determine_head.outputs.commit }}"
