@@ -53,32 +53,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Collect tier1/default profiling
-      - name: Collect tier1 profiling
-        run: |
-          python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all ,,,, --perf --run_id ${{ github.run_id }}
-
-      - name: Move tier1 results
-        run: |
-          mkdir -p profiling-collected/tier1
-          mv profiling/results/* profiling-collected/tier1/
-          rm -rf profiling cpython
-
       # Collect JIT profiling
       - name: Collect JIT profiling
         run: |
           python workflow_bootstrap.py python ${{ needs.determine_head.outputs.commit }} linux-x86_64-ripley all ,jit,, --perf --run_id ${{ github.run_id }}
 
-      - name: Move JIT results
-        run: |
-          mkdir -p profiling-collected/jit
-          mv profiling/results/* profiling-collected/jit/
-
-      - name: Upload all profiling artifacts
+      - name: Upload profiling artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: profiling-all
-          path: profiling-collected
+          name: profiling-jit
+          path: profiling/results
 
   process-and-commit:
     needs: [determine_head, collect-profiling]
@@ -99,38 +83,27 @@ jobs:
       - name: Download profiling artifacts
         uses: actions/download-artifact@v4
         with:
-          name: profiling-all
-          path: profiling-collected
-
-      - name: Generate tier1 profiling plots
-        run: |
-          mkdir -p profiling/results/tier1
-          cp profiling-collected/tier1/* profiling/results/tier1/
-          python -m bench_runner profiling_plot profiling/results/tier1 profiling/tier1
+          name: profiling-jit
+          path: profiling/results
 
       - name: Generate JIT profiling plots
         run: |
-          mkdir -p profiling/results/jit
-          cp profiling-collected/jit/* profiling/results/jit/
-          python -m bench_runner profiling_plot profiling/results/jit profiling/jit
+          python -m bench_runner profiling_plot profiling/results profiling/jit
 
       - name: Create README
         run: |
+          DATE=$(date -u +%Y-%m-%d)
           cat > profiling/README.md << EOF
           # Profiling Results
 
           **Commit:** ${{ needs.determine_head.outputs.commit }}
-          **Date:** $(date -u +%Y-%m-%d)
+          **Date:** ${DATE}
 
           ## Configurations
 
-          - [tier1](tier1.md) - Default interpreter
           - [jit](jit.md) - JIT enabled
 
           ## Visualizations
-
-          ### Tier 1 (Default)
-          ![tier1](tier1.svg)
 
           ### JIT
           ![jit](jit.svg)
