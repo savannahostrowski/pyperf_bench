@@ -13,30 +13,30 @@
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/20287012605)
 - cpu model: missing
 - platform: Linux-6.12.25+rpt-rpi-2712-aarch64-with-glibc2.36
-- [raw results](bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
+- [raw results](bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
 
 ### vs. base
 
 - Geometric mean: 1.008x faster (HPT: reliability of 67.39%, 1.00x slower at 99th %ile)
 - Memory usage: 1.03x
 - missing benchmarks: 🔴 sympy_expand, sympy_integrate, sympy_str, sympy_sum
-- [🧠memory plot](bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base-mem.svg)
-- [📄table](bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.md)
-- [📈time plot](bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.svg)
+- [🧠memory plot](bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base-mem.svg)
+- [📄table](bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.md)
+- [📈time plot](bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.svg)
 
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/20287012605)
 - cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
 - platform: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
-- [raw results](bm-20251217-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
+- [raw results](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
 
 ### vs. base
 
 - Geometric mean: 1.029x faster (HPT: reliability of 75.72%, 1.00x faster at 99th %ile)
 - Memory usage: 1.03x
 - missing benchmarks: 🔴 sympy_expand, sympy_integrate, sympy_str, sympy_sum
-- [🧠memory plot](bm-20251217-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base-mem.svg)
-- [📄table](bm-20251217-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.md)
-- [📈time plot](bm-20251217-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.svg)
+- [🧠memory plot](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base-mem.svg)
+- [📄table](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.md)
+- [📈time plot](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.svg)
 

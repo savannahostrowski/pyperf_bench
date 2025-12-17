@@ -13,7 +13,7 @@
 Benchmarks with tag 'apps':
 ===========================
 
-| Benchmark      | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark      | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | 2to3           | 430 ms                                                                                                                 | 435 ms: 1.01x slower                                                                                                       |
 | docutils       | 4.38 sec                                                                                                               | 5.00 sec: 1.14x slower                                                                                                     |
@@ -26,7 +26,7 @@ Benchmark hidden because not significant (2): chameleon, tornado_http
 Benchmarks with tag 'asyncio':
 ==============================
 
-| Benchmark                  | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark                  | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | asyncio_tcp                | 1.15 sec                                                                                                               | 1.09 sec: 1.06x faster                                                                                                     |
 | asyncio_websockets         | 906 ms                                                                                                                 | 922 ms: 1.02x slower                                                                                                       |
@@ -46,7 +46,7 @@ Benchmark hidden because not significant (2): coroutines, async_tree_none_tg
 Benchmarks with tag 'math':
 ===========================
 
-| Benchmark      | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark      | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | nbody          | 179 ms                                                                                                                 | 149 ms: 1.21x faster                                                                                                       |
 | float          | 132 ms                                                                                                                 | 119 ms: 1.12x faster                                                                                                       |
@@ -57,7 +57,7 @@ Benchmark hidden because not significant (1): pidigits
 Benchmarks with tag 'regex':
 ============================
 
-| Benchmark      | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark      | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | regex_v8       | 38.3 ms                                                                                                                | 36.6 ms: 1.05x faster                                                                                                      |
 | regex_dna      | 299 ms                                                                                                                 | 294 ms: 1.02x faster                                                                                                       |
@@ -69,7 +69,7 @@ Benchmark hidden because not significant (1): regex_compile
 Benchmarks with tag 'serialize':
 ================================
 
-| Benchmark            | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark            | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | unpickle_pure_python | 341 us                                                                                                                 | 266 us: 1.28x faster                                                                                                       |
 | pickle_pure_python   | 475 us                                                                                                                 | 412 us: 1.15x faster                                                                                                       |
@@ -88,7 +88,7 @@ Benchmark hidden because not significant (4): json_loads, unpickle, pickle_dict,
 Benchmarks with tag 'startup':
 ==============================
 
-| Benchmark              | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark              | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |------------------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | python_startup_no_site | 11.0 ms                                                                                                                | 10.8 ms: 1.01x faster                                                                                                      |
 | python_startup         | 18.6 ms                                                                                                                | 18.4 ms: 1.01x faster                                                                                                      |
@@ -97,7 +97,7 @@ Benchmarks with tag 'startup':
 Benchmarks with tag 'template':
 ===============================
 
-| Benchmark       | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark       | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |-----------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | mako            | 20.8 ms                                                                                                                | 18.9 ms: 1.10x faster                                                                                                      |
 | django_template | 53.1 ms                                                                                                                | 57.0 ms: 1.07x slower                                                                                                      |
@@ -108,7 +108,7 @@ Benchmarks with tag 'template':
 All benchmarks:
 ===============
 
-| Benchmark                  | results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251217-3.15.0a3+-89729f2-JIT/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
+| Benchmark                  | results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json | results/bm-20251216-3.15.0a3+-89729f2-JIT/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json |
 |----------------------------|:----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | richards                   | 68.2 ms                                                                                                                | 39.9 ms: 1.71x faster                                                                                                      |
 | richards_super             | 77.4 ms                                                                                                                | 47.3 ms: 1.63x faster                                                                                                      |
@@ -193,7 +193,7 @@ All benchmarks:
 | Geometric mean             | (ref)                                                                                                                  | 1.01x faster                                                                                                               |
 
 Benchmark hidden because not significant (23): sqlglot_v2_parse, meteor_contest, sqlglot_v2_transpile, json_loads, unpickle, crypto_pyaes, sqlalchemy_declarative, pidigits, telco, chaos, logging_format, pickle_dict, json, gc_traversal, thrift, chameleon, pickle, regex_compile, create_gc_cycles, tornado_http, scimark_sparse_mat_mult, coroutines, async_tree_none_tg
-Ignored benchmarks (4) of results/bm-20251217-3.15.0a3+-89729f2/bm-20251217-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json: sympy_expand, sympy_integrate, sympy_str, sympy_sum
+Ignored benchmarks (4) of results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json: sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
 - Geometric mean (including insignificant results): 1.008x faster
 

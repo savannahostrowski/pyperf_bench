@@ -10,6 +10,21 @@ compare_to_default = []
 
 [benchmarks]
 # List any benchmarks you want to exclude from results here
+excluded_benchmarks = [
+    "aiohttp",
+    "asyncio_tcp",
+    "asyncio_tcp_ssl",
+    "bench_mp_pool",
+    "concurrent_imap",
+    "deepcopy_reduce",
+    "logging_silent",
+    "pickle",
+    "pickle_dict",
+    "pickle_list",
+    "unpack_sequence",
+    "unpickle",
+    "unpickle_list",
+]
 
 [notify]
 # The number of the issue in your repo that will have comments added to
@@ -66,6 +81,10 @@ use_cores = 11
 
 [publish_mirror]
 skip = true
+
+[install]
+# Skip generating these template files
+skip_templates = ["ci.src.yml"]
 
 [weekly]
 # Weekly runs disabled - using nightly instead
