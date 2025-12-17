@@ -15,3 +15,12 @@
 - platform: macOS-26.1-arm64-arm-64bit-Mach-O
 - [raw results](bm-20251216-jones-arm64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
 
+### vs. base
+
+- Geometric mean: 1.061x faster (HPT: reliability of 99.93%, 1.00x faster at 99th %ile)
+- Memory usage: 1.03x
+- missing benchmarks: 🔴 sympy_expand, sympy_integrate, sympy_str, sympy_sum
+- [🧠memory plot](bm-20251216-jones-arm64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base-mem.svg)
+- [📄table](bm-20251216-jones-arm64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.md)
+- [📈time plot](bm-20251216-jones-arm64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-vs-base.svg)
+

@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: 572c780
 - commit date: 2025-12-06
-- overall geometric mean: 1.052x slower
+- overall geometric mean: 1.056x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
 - Memory change: 1.03x
@@ -196,7 +196,7 @@ All benchmarks:
 
 Benchmark hidden because not significant (12): async_tree_cpu_io_mixed_tg, async_tree_io, async_tree_cpu_io_mixed, async_tree_none_tg, pickle_list, coverage, async_tree_none, asyncio_websockets, async_tree_memoization, typing_runtime_protocols, async_tree_memoization_tg, asyncio_tcp
 
-- Geometric mean (including insignificant results): 1.052x slower
+- Geometric mean (including insignificant results): 1.056x slower
 
 # HPT report
 

@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: d844d22
 - commit date: 2025-12-14
-- overall geometric mean: 1.021x faster
-- HPT reliability: 76.61%
+- overall geometric mean: 1.020x faster
+- HPT reliability: 77.99%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.03x
 
@@ -194,11 +194,11 @@ All benchmarks:
 Benchmark hidden because not significant (18): async_tree_none_tg, coverage, sqlalchemy_declarative, thrift, asyncio_websockets, sqlglot_v2_transpile, pathlib, chameleon, regex_compile, bench_thread_pool, async_tree_cpu_io_mixed_tg, tornado_http, async_tree_io, sqlglot_v2_parse, async_tree_cpu_io_mixed, async_tree_none, async_tree_memoization, subparsers
 Ignored benchmarks (5) of results/bm-20251214-3.15.0a2+-d844d22/bm-20251214-blueberry-aarch64-python-d844d22cb00e4a8a224a-3.15.0a2+-d844d22.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.021x faster
+- Geometric mean (including insignificant results): 1.020x faster
 
 # HPT report
 
-- Reliability score: 76.61% likely to be faster
+- Reliability score: 77.99% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

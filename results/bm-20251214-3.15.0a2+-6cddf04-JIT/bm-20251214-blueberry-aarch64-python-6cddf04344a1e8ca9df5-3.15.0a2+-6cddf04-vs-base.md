@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: 6cddf04
 - commit date: 2025-12-14
-- overall geometric mean: 1.034x faster
-- HPT reliability: 99.48%
+- overall geometric mean: 1.036x faster
+- HPT reliability: 99.14%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.03x
 
@@ -195,11 +195,11 @@ All benchmarks:
 Benchmark hidden because not significant (20): typing_runtime_protocols, crypto_pyaes, subparsers, sqlalchemy_imperative, bench_thread_pool, async_tree_cpu_io_mixed_tg, sqlglot_v2_optimize, async_tree_none, pathlib, sqlglot_v2_transpile, regex_compile, async_tree_memoization, async_tree_cpu_io_mixed, async_tree_io, sqlglot_v2_normalize, comprehensions, deepcopy_reduce, coverage, xdsl_constant_fold, django_template
 Ignored benchmarks (5) of results/bm-20251214-3.15.0a2+-6cddf04/bm-20251214-blueberry-aarch64-python-6cddf04344a1e8ca9df5-3.15.0a2+-6cddf04.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.034x faster
+- Geometric mean (including insignificant results): 1.036x faster
 
 # HPT report
 
-- Reliability score: 99.48% likely to be faster
+- Reliability score: 99.14% likely to be faster
 - 90% likely to have a speedup of 1.01x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

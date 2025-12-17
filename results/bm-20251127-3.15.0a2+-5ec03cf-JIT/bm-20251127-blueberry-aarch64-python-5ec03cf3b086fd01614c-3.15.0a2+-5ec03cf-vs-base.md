@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: 5ec03cf
 - commit date: 2025-11-27
-- overall geometric mean: 1.047x slower
-- HPT reliability: 99.93%
+- overall geometric mean: 1.045x slower
+- HPT reliability: 99.73%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.03x
 
@@ -206,11 +206,11 @@ All benchmarks:
 Benchmark hidden because not significant (4): asyncio_tcp, asyncio_websockets, deepcopy_memo, richards_super
 Ignored benchmarks (1) of results/bm-20251127-3.15.0a2+-5ec03cf/bm-20251127-blueberry-aarch64-python-5ec03cf3b086fd01614c-3.15.0a2+-5ec03cf.json: docutils
 
-- Geometric mean (including insignificant results): 1.047x slower
+- Geometric mean (including insignificant results): 1.045x slower
 
 # HPT report
 
-- Reliability score: 99.93% likely to be slow
+- Reliability score: 99.73% likely to be slow
 - 90% likely to have a slowdown of 1.01x
 - 95% likely to have a slowdown of 1.01x
 - 99% likely to have a slowdown of 1.00x

@@ -17,7 +17,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.009x faster (HPT: reliability of 85.33%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.013x faster (HPT: reliability of 77.05%, 1.00x slower at 99th %ile)
 - Memory usage: 1.02x
 - [🧠memory plot](bm-20251113-blueberry-aarch64-python-196f1519cd2d8134d764-3.15.0a1%2B-196f151-vs-base-mem.svg)
 - [📄table](bm-20251113-blueberry-aarch64-python-196f1519cd2d8134d764-3.15.0a1%2B-196f151-vs-base.md)

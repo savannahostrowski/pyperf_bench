@@ -5,10 +5,10 @@
 - machine: darwin-arm64
 - commit hash: 6cddf04
 - commit date: 2025-12-14
-- overall geometric mean: 1.092x faster
+- overall geometric mean: 1.100x faster
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.02x faster
-- Memory change: 1.02x
+- Memory change: 1.03x
 
 Benchmarks with tag 'apps':
 ===========================
@@ -216,7 +216,7 @@ All benchmarks:
 Benchmark hidden because not significant (3): async_tree_none_tg, python_startup, dulwich_log
 Ignored benchmarks (5) of results/bm-20251214-3.15.0a2+-6cddf04/bm-20251214-jones-arm64-python-6cddf04344a1e8ca9df5-3.15.0a2+-6cddf04.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.092x faster
+- Geometric mean (including insignificant results): 1.100x faster
 
 # HPT report
 
@@ -226,4 +226,4 @@ Ignored benchmarks (5) of results/bm-20251214-3.15.0a2+-6cddf04/bm-20251214-jone
 - 99% likely to have a speedup of 1.02x
 
 # Memory
-- memory change: 1.02x
+- memory change: 1.03x

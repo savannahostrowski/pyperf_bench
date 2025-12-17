@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: 227b9d3
 - commit date: 2025-11-22
-- overall geometric mean: 1.022x slower
+- overall geometric mean: 1.023x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
 - Memory change: 1.02x
@@ -195,7 +195,7 @@ All benchmarks:
 Benchmark hidden because not significant (10): async_tree_none_tg, async_tree_io_tg, bpe_tokeniser, async_tree_io, logging_simple, async_tree_none, async_tree_cpu_io_mixed_tg, subparsers, async_tree_cpu_io_mixed, async_tree_memoization
 Ignored benchmarks (1) of results/bm-20251122-3.15.0a2+-227b9d3/bm-20251122-blueberry-aarch64-python-227b9d326ec7eba35942-3.15.0a2+-227b9d3.json: docutils
 
-- Geometric mean (including insignificant results): 1.022x slower
+- Geometric mean (including insignificant results): 1.023x slower
 
 # HPT report
 

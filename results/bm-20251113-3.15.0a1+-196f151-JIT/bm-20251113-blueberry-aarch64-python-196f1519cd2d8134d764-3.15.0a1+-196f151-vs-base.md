@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: 196f151
 - commit date: 2025-11-13
-- overall geometric mean: 1.009x faster
-- HPT reliability: 85.33%
+- overall geometric mean: 1.013x faster
+- HPT reliability: 77.05%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.02x
 
@@ -186,11 +186,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (19): async_tree_io, xml_etree_process, json_loads, json, async_tree_memoization, asyncio_websockets, unpickle_list, richards_super, scimark_sor, async_tree_none, async_tree_cpu_io_mixed, coroutines, create_gc_cycles, subparsers, async_tree_io_tg, float, async_tree_cpu_io_mixed_tg, html5lib, async_tree_none_tg
 
-- Geometric mean (including insignificant results): 1.009x faster
+- Geometric mean (including insignificant results): 1.013x faster
 
 # HPT report
 
-- Reliability score: 85.33% likely to be slow
+- Reliability score: 77.05% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x

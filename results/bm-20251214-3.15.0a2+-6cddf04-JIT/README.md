@@ -17,7 +17,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.034x faster (HPT: reliability of 99.48%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.036x faster (HPT: reliability of 99.14%, 1.00x faster at 99th %ile)
 - Memory usage: 1.03x
 - missing benchmarks: 🔴 docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 - [🧠memory plot](bm-20251214-blueberry-aarch64-python-6cddf04344a1e8ca9df5-3.15.0a2%2B-6cddf04-vs-base-mem.svg)
@@ -33,7 +33,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.030x faster (HPT: reliability of 84.29%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.034x faster (HPT: reliability of 81.13%, 1.00x faster at 99th %ile)
 - Memory usage: 1.03x
 - missing benchmarks: 🔴 docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 - [🧠memory plot](bm-20251214-ripley-x86_64-python-6cddf04344a1e8ca9df5-3.15.0a2%2B-6cddf04-vs-base-mem.svg)
@@ -49,8 +49,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.092x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
-- Memory usage: 1.02x
+- Geometric mean: 1.100x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
+- Memory usage: 1.03x
 - missing benchmarks: 🔴 docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 - [🧠memory plot](bm-20251214-jones-arm64-python-6cddf04344a1e8ca9df5-3.15.0a2%2B-6cddf04-vs-base-mem.svg)
 - [📄table](bm-20251214-jones-arm64-python-6cddf04344a1e8ca9df5-3.15.0a2%2B-6cddf04-vs-base.md)

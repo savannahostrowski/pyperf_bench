@@ -5,10 +5,10 @@
 - machine: linux-aarch64
 - commit hash: eb89286
 - commit date: 2025-12-01
-- overall geometric mean: 1.168x slower
+- overall geometric mean: 1.183x slower
 - HPT reliability: 100.00%
-- HPT 99th percentile: 1.06x slower
-- Memory change: 1.03x
+- HPT 99th percentile: 1.07x slower
+- Memory change: 1.02x
 
 Benchmarks with tag 'apps':
 ===========================
@@ -201,14 +201,14 @@ All benchmarks:
 
 Benchmark hidden because not significant (6): async_tree_none_tg, async_tree_cpu_io_mixed_tg, async_tree_io, async_tree_memoization, async_tree_cpu_io_mixed, async_tree_none
 
-- Geometric mean (including insignificant results): 1.168x slower
+- Geometric mean (including insignificant results): 1.183x slower
 
 # HPT report
 
 - Reliability score: 100.00% likely to be slow
-- 90% likely to have a slowdown of 1.08x
-- 95% likely to have a slowdown of 1.07x
-- 99% likely to have a slowdown of 1.06x
+- 90% likely to have a slowdown of 1.09x
+- 95% likely to have a slowdown of 1.08x
+- 99% likely to have a slowdown of 1.07x
 
 # Memory
-- memory change: 1.03x
+- memory change: 1.02x

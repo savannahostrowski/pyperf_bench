@@ -13,10 +13,6 @@
 - [pystats raw](bm-20251123-blueberry-aarch64-brandtbucher-gc_double_count-3.15.0a2%2B-727f9a5-pystats.json)
 - [pystats table](bm-20251123-blueberry-aarch64-brandtbucher-gc_double_count-3.15.0a2%2B-727f9a5-pystats.md)
 
-### vs. base
-
-- [pystats diff](bm-20251123-blueberry-aarch64-brandtbucher-gc_double_count-3.15.0a2%2B-727f9a5-pystats-vs-base.md)
-
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19716279325)
@@ -26,7 +22,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.002x slower (HPT: reliability of 73.16%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.000x slower (HPT: reliability of 74.85%, 1.00x faster at 99th %ile)
 - Memory usage: 0.99x
 - [🧠memory plot](bm-20251123-ripley-x86_64-brandtbucher-gc_double_count-3.15.0a2%2B-727f9a5-vs-base-mem.svg)
 - [📄table](bm-20251123-ripley-x86_64-brandtbucher-gc_double_count-3.15.0a2%2B-727f9a5-vs-base.md)

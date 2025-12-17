@@ -5,8 +5,8 @@
 - machine: linux-x86_64
 - commit hash: cde19e5
 - commit date: 2025-11-22
-- overall geometric mean: 1.064x faster
-- HPT reliability: 94.60%
+- overall geometric mean: 1.074x faster
+- HPT reliability: 92.96%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.02x
 
@@ -198,11 +198,11 @@ All benchmarks:
 Benchmark hidden because not significant (9): async_tree_none, async_tree_none_tg, logging_format, regex_compile, asyncio_websockets, async_tree_io, async_tree_memoization, bench_thread_pool, async_tree_io_tg
 Ignored benchmarks (1) of results/bm-20251122-3.15.0a2+-cde19e5/bm-20251122-ripley-x86_64-python-cde19e565cc9127fe5db-3.15.0a2+-cde19e5.json: docutils
 
-- Geometric mean (including insignificant results): 1.064x faster
+- Geometric mean (including insignificant results): 1.074x faster
 
 # HPT report
 
-- Reliability score: 94.60% likely to be faster
+- Reliability score: 92.96% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

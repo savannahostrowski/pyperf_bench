@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: 7b0b708
 - commit date: 2025-11-19
-- overall geometric mean: 1.103x slower
+- overall geometric mean: 1.106x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.03x slower
 - Memory change: 1.03x
@@ -199,12 +199,12 @@ All benchmarks:
 Benchmark hidden because not significant (8): coroutines, gc_traversal, create_gc_cycles, subparsers, async_tree_none_tg, async_tree_memoization_tg, async_tree_io_tg, async_tree_cpu_io_mixed_tg
 Ignored benchmarks (1) of results/bm-20251119-3.15.0a1+-7b0b708/bm-20251119-blueberry-aarch64-python-7b0b70867586ef7109de-3.15.0a1+-7b0b708.json: docutils
 
-- Geometric mean (including insignificant results): 1.103x slower
+- Geometric mean (including insignificant results): 1.106x slower
 
 # HPT report
 
 - Reliability score: 100.00% likely to be slow
-- 90% likely to have a slowdown of 1.03x
+- 90% likely to have a slowdown of 1.04x
 - 95% likely to have a slowdown of 1.03x
 - 99% likely to have a slowdown of 1.03x
 

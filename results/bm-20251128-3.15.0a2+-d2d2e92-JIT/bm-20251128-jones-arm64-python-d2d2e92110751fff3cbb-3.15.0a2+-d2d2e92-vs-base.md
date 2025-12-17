@@ -5,8 +5,8 @@
 - machine: darwin-arm64
 - commit hash: d2d2e92
 - commit date: 2025-11-28
-- overall geometric mean: 1.054x faster
-- HPT reliability: 99.88%
+- overall geometric mean: 1.060x faster
+- HPT reliability: 99.86%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.03x
 
@@ -192,13 +192,13 @@ All benchmarks:
 
 Benchmark hidden because not significant (16): async_tree_memoization_tg, async_tree_cpu_io_mixed_tg, asyncio_tcp_ssl, unpickle_list, pickle_dict, unpickle, asyncio_websockets, pidigits, python_startup_no_site, async_tree_io_tg, html5lib, sphinx, logging_simple, create_gc_cycles, json_loads, asyncio_tcp
 
-- Geometric mean (including insignificant results): 1.054x faster
+- Geometric mean (including insignificant results): 1.060x faster
 
 # HPT report
 
-- Reliability score: 99.88% likely to be faster
+- Reliability score: 99.86% likely to be faster
 - 90% likely to have a speedup of 1.01x
-- 95% likely to have a speedup of 1.00x
+- 95% likely to have a speedup of 1.01x
 - 99% likely to have a speedup of 1.00x
 
 # Memory

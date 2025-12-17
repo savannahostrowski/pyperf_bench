@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: ed73c90
 - commit date: 2025-11-15
-- overall geometric mean: 1.082x slower
+- overall geometric mean: 1.083x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.03x slower
 - Memory change: 1.03x
@@ -202,7 +202,7 @@ All benchmarks:
 Benchmark hidden because not significant (7): xml_etree_iterparse, spectral_norm, unpickle_list, create_gc_cycles, async_tree_cpu_io_mixed, async_tree_memoization, async_tree_io_tg
 Ignored benchmarks (1) of results/bm-20251115-3.15.0a1+-ed73c90/bm-20251115-blueberry-aarch64-python-ed73c909f278a1eb558b-3.15.0a1+-ed73c90.json: docutils
 
-- Geometric mean (including insignificant results): 1.082x slower
+- Geometric mean (including insignificant results): 1.083x slower
 
 # HPT report
 

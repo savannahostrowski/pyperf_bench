@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: 425f24e
 - commit date: 2025-11-23
-- overall geometric mean: 1.029x slower
+- overall geometric mean: 1.024x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
 - Memory change: 1.02x
@@ -196,13 +196,13 @@ All benchmarks:
 Benchmark hidden because not significant (14): async_tree_cpu_io_mixed_tg, scimark_sparse_mat_mult, async_tree_memoization_tg, sqlite_synth, gc_traversal, unpickle, pidigits, python_startup, create_gc_cycles, async_tree_io_tg, regex_dna, async_tree_cpu_io_mixed, async_tree_memoization, async_tree_io
 Ignored benchmarks (1) of results/bm-20251123-3.15.0a2+-425f24e/bm-20251123-blueberry-aarch64-python-425f24e4fad672c21130-3.15.0a2+-425f24e.json: docutils
 
-- Geometric mean (including insignificant results): 1.029x slower
+- Geometric mean (including insignificant results): 1.024x slower
 
 # HPT report
 
 - Reliability score: 100.00% likely to be slow
 - 90% likely to have a slowdown of 1.02x
-- 95% likely to have a slowdown of 1.02x
+- 95% likely to have a slowdown of 1.01x
 - 99% likely to have a slowdown of 1.01x
 
 # Memory

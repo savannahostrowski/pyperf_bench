@@ -5,8 +5,8 @@
 - machine: linux-x86_64
 - commit hash: 727f9a5
 - commit date: 2025-11-23
-- overall geometric mean: 1.002x slower
-- HPT reliability: 73.16%
+- overall geometric mean: 1.000x slower
+- HPT reliability: 74.85%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 0.99x
 
@@ -194,11 +194,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (18): html5lib, django_template, dulwich_log, many_optionals, deepcopy_reduce, unpickle_list, genshi_text, asyncio_websockets, chaos, unpickle_pure_python, python_startup_no_site, coverage, float, asyncio_tcp_ssl, sqlglot_v2_transpile, async_tree_memoization_tg, async_tree_cpu_io_mixed_tg, bench_mp_pool
 
-- Geometric mean (including insignificant results): 1.002x slower
+- Geometric mean (including insignificant results): 1.000x slower
 
 # HPT report
 
-- Reliability score: 73.16% likely to be faster
+- Reliability score: 74.85% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

@@ -13,10 +13,6 @@
 - [pystats raw](bm-20251123-blueberry-aarch64-python-e73fbbacbba0dc65f852-3.15.0a2%2B-e73fbba-pystats.json)
 - [pystats table](bm-20251123-blueberry-aarch64-python-e73fbbacbba0dc65f852-3.15.0a2%2B-e73fbba-pystats.md)
 
-### vs. base
-
-- [pystats diff](bm-20251123-blueberry-aarch64-python-e73fbbacbba0dc65f852-3.15.0a2%2B-e73fbba-pystats-vs-base.md)
-
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/19716279325)
@@ -26,7 +22,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.002x slower (HPT: reliability of 99.01%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.003x slower (HPT: reliability of 97.64%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20251123-ripley-x86_64-python-e73fbbacbba0dc65f852-3.15.0a2%2B-e73fbba-vs-base-mem.svg)
 - [📄table](bm-20251123-ripley-x86_64-python-e73fbbacbba0dc65f852-3.15.0a2%2B-e73fbba-vs-base.md)

@@ -17,7 +17,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.005x faster (HPT: reliability of 97.61%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.005x faster (HPT: reliability of 97.97%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20251128-ripley-x86_64-brandtbucher-jit_unwind-3.15.0a2%2B-8760c1b-vs-base-mem.svg)
 - [📄table](bm-20251128-ripley-x86_64-brandtbucher-jit_unwind-3.15.0a2%2B-8760c1b-vs-base.md)

@@ -5,8 +5,8 @@
 - machine: linux-x86_64
 - commit hash: 726e8e8
 - commit date: 2025-12-08
-- overall geometric mean: 1.012x faster
-- HPT reliability: 65.26%
+- overall geometric mean: 1.020x faster
+- HPT reliability: 57.69%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.02x
 
@@ -200,11 +200,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (10): coroutines, thrift, chaos, pathlib, async_tree_memoization_tg, create_gc_cycles, async_tree_none, async_tree_memoization, async_tree_none_tg, async_tree_io
 
-- Geometric mean (including insignificant results): 1.012x faster
+- Geometric mean (including insignificant results): 1.020x faster
 
 # HPT report
 
-- Reliability score: 65.26% likely to be slow
+- Reliability score: 57.69% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x

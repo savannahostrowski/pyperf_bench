@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: c90863a
 - commit date: 2025-12-12
-- overall geometric mean: 1.007x slower
-- HPT reliability: 96.14%
+- overall geometric mean: 1.004x slower
+- HPT reliability: 90.08%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.03x
 
@@ -197,11 +197,11 @@ All benchmarks:
 Benchmark hidden because not significant (13): async_tree_memoization, async_tree_io, xml_etree_iterparse, json_loads, asyncio_websockets, pickle_list, meteor_contest, crypto_pyaes, async_tree_none_tg, create_gc_cycles, async_tree_none, async_tree_cpu_io_mixed, async_tree_cpu_io_mixed_tg
 Ignored benchmarks (5) of results/bm-20251212-3.15.0a2+-c90863a/bm-20251212-blueberry-aarch64-python-c90863ac3dcbc5b0b8f9-3.15.0a2+-c90863a.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.007x slower
+- Geometric mean (including insignificant results): 1.004x slower
 
 # HPT report
 
-- Reliability score: 96.14% likely to be slow
+- Reliability score: 90.08% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x
