@@ -53,4 +53,5 @@ jobs:
       if: ${{ !inputs.dry_run }}
       with:
         add: "['results', 'README.md', 'RESULTS.md']"
+        pull: '--rebase --autostash'
         message: Benchmarking results for @${{ github.actor }}
