@@ -142,4 +142,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: profiling
+          pull: '--rebase --autostash'
           message: "Add profiling data for ${{ needs.determine_head.outputs.commit }}"
