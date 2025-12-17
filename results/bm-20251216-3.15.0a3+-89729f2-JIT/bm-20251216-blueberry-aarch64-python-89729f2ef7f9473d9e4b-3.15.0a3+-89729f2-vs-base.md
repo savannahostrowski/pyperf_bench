@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: 89729f2
 - commit date: 2025-12-17
-- overall geometric mean: 1.009x faster
-- HPT reliability: 65.29%
+- overall geometric mean: 1.008x faster
+- HPT reliability: 67.39%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.03x
 
@@ -195,11 +195,11 @@ All benchmarks:
 Benchmark hidden because not significant (23): sqlglot_v2_parse, meteor_contest, sqlglot_v2_transpile, json_loads, unpickle, crypto_pyaes, sqlalchemy_declarative, pidigits, telco, chaos, logging_format, pickle_dict, json, gc_traversal, thrift, chameleon, pickle, regex_compile, create_gc_cycles, tornado_http, scimark_sparse_mat_mult, coroutines, async_tree_none_tg
 Ignored benchmarks (4) of results/bm-20251216-3.15.0a3+-89729f2/bm-20251216-blueberry-aarch64-python-89729f2ef7f9473d9e4b-3.15.0a3+-89729f2.json: sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.009x faster
+- Geometric mean (including insignificant results): 1.008x faster
 
 # HPT report
 
-- Reliability score: 65.29% likely to be slow
+- Reliability score: 67.39% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x

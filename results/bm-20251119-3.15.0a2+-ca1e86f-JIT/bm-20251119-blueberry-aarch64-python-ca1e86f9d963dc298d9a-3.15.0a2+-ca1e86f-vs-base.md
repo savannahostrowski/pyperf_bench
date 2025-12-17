@@ -5,9 +5,9 @@
 - machine: linux-aarch64
 - commit hash: ca1e86f
 - commit date: 2025-11-19
-- overall geometric mean: 1.089x slower
-- HPT reliability: 99.95%
-- HPT 99th percentile: 1.01x slower
+- overall geometric mean: 1.073x slower
+- HPT reliability: 99.82%
+- HPT 99th percentile: 1.00x slower
 - Memory change: 1.03x
 
 Benchmarks with tag 'apps':
@@ -204,14 +204,14 @@ All benchmarks:
 Benchmark hidden because not significant (8): regex_dna, python_startup_no_site, regex_effbot, json_loads, unpickle, asyncio_websockets, coverage, bench_mp_pool
 Ignored benchmarks (1) of results/bm-20251119-3.15.0a2+-ca1e86f/bm-20251119-blueberry-aarch64-python-ca1e86f9d963dc298d9a-3.15.0a2+-ca1e86f.json: docutils
 
-- Geometric mean (including insignificant results): 1.089x slower
+- Geometric mean (including insignificant results): 1.073x slower
 
 # HPT report
 
-- Reliability score: 99.95% likely to be slow
-- 90% likely to have a slowdown of 1.03x
-- 95% likely to have a slowdown of 1.03x
-- 99% likely to have a slowdown of 1.01x
+- Reliability score: 99.82% likely to be slow
+- 90% likely to have a slowdown of 1.02x
+- 95% likely to have a slowdown of 1.01x
+- 99% likely to have a slowdown of 1.00x
 
 # Memory
 - memory change: 1.03x

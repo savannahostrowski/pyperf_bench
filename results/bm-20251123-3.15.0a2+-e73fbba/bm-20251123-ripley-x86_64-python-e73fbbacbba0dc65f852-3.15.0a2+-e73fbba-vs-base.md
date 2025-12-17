@@ -5,8 +5,8 @@
 - machine: linux-x86_64
 - commit hash: e73fbba
 - commit date: 2025-11-23
-- overall geometric mean: 1.003x slower
-- HPT reliability: 97.64%
+- overall geometric mean: 1.002x slower
+- HPT reliability: 99.01%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.00x
 
@@ -174,11 +174,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (32): async_tree_io_tg, json, async_tree_io, sqlglot_v2_parse, create_gc_cycles, async_tree_cpu_io_mixed, scimark_fft, xml_etree_iterparse, sqlglot_v2_transpile, mdp, pylint, asyncio_websockets, python_startup_no_site, richards, pidigits, richards_super, tomli_loads, docutils, deltablue, async_tree_memoization, coroutines, logging_format, xml_etree_process, async_tree_cpu_io_mixed_tg, unpickle_list, django_template, deepcopy_reduce, async_generators, regex_v8, async_tree_none_tg, async_tree_none, bench_mp_pool
 
-- Geometric mean (including insignificant results): 1.003x slower
+- Geometric mean (including insignificant results): 1.002x slower
 
 # HPT report
 
-- Reliability score: 97.64% likely to be slow
+- Reliability score: 99.01% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x

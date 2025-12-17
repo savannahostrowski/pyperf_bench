@@ -5,8 +5,8 @@
 - machine: darwin-arm64
 - commit hash: ef51a7c
 - commit date: 2025-12-07
-- overall geometric mean: 1.017x faster
-- HPT reliability: 51.55%
+- overall geometric mean: 1.013x faster
+- HPT reliability: 65.35%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.02x
 
@@ -208,11 +208,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (6): async_tree_none_tg, async_tree_memoization, deltablue, genshi_xml, async_tree_memoization_tg, async_tree_cpu_io_mixed
 
-- Geometric mean (including insignificant results): 1.017x faster
+- Geometric mean (including insignificant results): 1.013x faster
 
 # HPT report
 
-- Reliability score: 51.55% likely to be slow
+- Reliability score: 65.35% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x

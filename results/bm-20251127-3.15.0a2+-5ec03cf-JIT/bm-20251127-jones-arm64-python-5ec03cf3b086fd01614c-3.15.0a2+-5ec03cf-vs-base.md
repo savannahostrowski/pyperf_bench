@@ -5,9 +5,9 @@
 - machine: darwin-arm64
 - commit hash: 5ec03cf
 - commit date: 2025-11-27
-- overall geometric mean: 1.082x faster
+- overall geometric mean: 1.075x faster
 - HPT reliability: 100.00%
-- HPT 99th percentile: 1.02x faster
+- HPT 99th percentile: 1.01x faster
 - Memory change: 1.03x
 
 Benchmarks with tag 'apps':
@@ -206,14 +206,14 @@ All benchmarks:
 Benchmark hidden because not significant (9): asyncio_websockets, python_startup, pickle_dict, sqlglot_v2_normalize, create_gc_cycles, sqlglot_v2_optimize, many_optionals, docutils, asyncio_tcp
 Ignored benchmarks (1) of results/bm-20251127-3.15.0a2+-5ec03cf/bm-20251127-jones-arm64-python-5ec03cf3b086fd01614c-3.15.0a2+-5ec03cf.json: dulwich_log
 
-- Geometric mean (including insignificant results): 1.082x faster
+- Geometric mean (including insignificant results): 1.075x faster
 
 # HPT report
 
 - Reliability score: 100.00% likely to be faster
 - 90% likely to have a speedup of 1.02x
 - 95% likely to have a speedup of 1.02x
-- 99% likely to have a speedup of 1.02x
+- 99% likely to have a speedup of 1.01x
 
 # Memory
 - memory change: 1.03x

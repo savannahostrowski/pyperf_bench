@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: 5d2eb98
 - commit date: 2025-11-17
-- overall geometric mean: 1.071x slower
+- overall geometric mean: 1.067x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.02x slower
 - Memory change: 1.03x
@@ -197,12 +197,12 @@ All benchmarks:
 Benchmark hidden because not significant (10): coverage, asyncio_websockets, unpickle_list, scimark_sor, pickle_dict, sqlite_synth, async_tree_cpu_io_mixed_tg, async_tree_memoization, async_tree_io_tg, async_tree_none_tg
 Ignored benchmarks (1) of results/bm-20251117-3.15.0a1+-5d2eb98/bm-20251117-blueberry-aarch64-python-5d2eb98a91f2cd703d14-3.15.0a1+-5d2eb98.json: docutils
 
-- Geometric mean (including insignificant results): 1.071x slower
+- Geometric mean (including insignificant results): 1.067x slower
 
 # HPT report
 
 - Reliability score: 100.00% likely to be slow
-- 90% likely to have a slowdown of 1.03x
+- 90% likely to have a slowdown of 1.02x
 - 95% likely to have a slowdown of 1.02x
 - 99% likely to have a slowdown of 1.02x
 

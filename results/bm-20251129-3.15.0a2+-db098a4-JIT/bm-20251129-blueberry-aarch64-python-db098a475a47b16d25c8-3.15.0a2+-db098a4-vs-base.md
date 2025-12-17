@@ -5,7 +5,7 @@
 - machine: linux-aarch64
 - commit hash: db098a4
 - commit date: 2025-11-29
-- overall geometric mean: 1.057x slower
+- overall geometric mean: 1.058x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
 - Memory change: 1.03x
@@ -192,7 +192,7 @@ All benchmarks:
 
 Benchmark hidden because not significant (13): pycparser, async_tree_cpu_io_mixed_tg, async_tree_none_tg, async_tree_io, sqlite_synth, asyncio_websockets, async_tree_memoization_tg, unpickle_list, async_tree_cpu_io_mixed, async_tree_memoization, subparsers, async_tree_io_tg, async_tree_none
 
-- Geometric mean (including insignificant results): 1.057x slower
+- Geometric mean (including insignificant results): 1.058x slower
 
 # HPT report
 

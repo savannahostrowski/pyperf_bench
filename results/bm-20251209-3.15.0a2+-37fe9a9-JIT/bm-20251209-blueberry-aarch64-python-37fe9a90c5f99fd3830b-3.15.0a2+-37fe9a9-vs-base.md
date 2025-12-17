@@ -5,10 +5,10 @@
 - machine: linux-aarch64
 - commit hash: 37fe9a9
 - commit date: 2025-12-09
-- overall geometric mean: 1.031x slower
-- HPT reliability: 98.85%
+- overall geometric mean: 1.022x slower
+- HPT reliability: 98.05%
 - HPT 99th percentile: 1.00x slower
-- Memory change: 1.03x
+- Memory change: 1.02x
 
 Benchmarks with tag 'apps':
 ===========================
@@ -208,14 +208,14 @@ All benchmarks:
 
 Benchmark hidden because not significant (8): coverage, json_loads, gc_traversal, pidigits, asyncio_websockets, unpickle_list, scimark_sor, create_gc_cycles
 
-- Geometric mean (including insignificant results): 1.031x slower
+- Geometric mean (including insignificant results): 1.022x slower
 
 # HPT report
 
-- Reliability score: 98.85% likely to be slow
+- Reliability score: 98.05% likely to be slow
 - 90% likely to have a slowdown of 1.00x
 - 95% likely to have a slowdown of 1.00x
 - 99% likely to have a slowdown of 1.00x
 
 # Memory
-- memory change: 1.03x
+- memory change: 1.02x

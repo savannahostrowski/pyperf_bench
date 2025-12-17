@@ -17,7 +17,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.085x slower (HPT: reliability of 100.00%, 1.03x slower at 99th %ile)
+- Geometric mean: 1.087x slower (HPT: reliability of 100.00%, 1.03x slower at 99th %ile)
 - Memory usage: 1.03x
 - [🧠memory plot](bm-20251128-blueberry-aarch64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base-mem.svg)
 - [📄table](bm-20251128-blueberry-aarch64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base.md)
@@ -32,7 +32,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.018x faster (HPT: reliability of 88.62%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.011x faster (HPT: reliability of 91.05%, 1.00x slower at 99th %ile)
 - Memory usage: 1.02x
 - [🧠memory plot](bm-20251128-ripley-x86_64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base-mem.svg)
 - [📄table](bm-20251128-ripley-x86_64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base.md)
@@ -47,7 +47,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.060x faster (HPT: reliability of 99.86%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.054x faster (HPT: reliability of 99.88%, 1.00x faster at 99th %ile)
 - Memory usage: 1.03x
 - [🧠memory plot](bm-20251128-jones-arm64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base-mem.svg)
 - [📄table](bm-20251128-jones-arm64-python-d2d2e92110751fff3cbb-3.15.0a2%2B-d2d2e92-vs-base.md)

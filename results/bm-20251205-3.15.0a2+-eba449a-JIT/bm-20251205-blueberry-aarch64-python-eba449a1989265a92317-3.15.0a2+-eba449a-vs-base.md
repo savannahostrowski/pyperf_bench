@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: eba449a
 - commit date: 2025-12-05
-- overall geometric mean: 1.062x slower
-- HPT reliability: 99.97%
+- overall geometric mean: 1.058x slower
+- HPT reliability: 99.99%
 - HPT 99th percentile: 1.00x slower
 - Memory change: 1.02x
 
@@ -201,11 +201,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (9): async_tree_memoization, async_tree_none, async_tree_cpu_io_mixed, async_tree_cpu_io_mixed_tg, unpickle, pickle, json_loads, pickle_dict, gc_traversal
 
-- Geometric mean (including insignificant results): 1.062x slower
+- Geometric mean (including insignificant results): 1.058x slower
 
 # HPT report
 
-- Reliability score: 99.97% likely to be slow
+- Reliability score: 99.99% likely to be slow
 - 90% likely to have a slowdown of 1.01x
 - 95% likely to have a slowdown of 1.01x
 - 99% likely to have a slowdown of 1.00x

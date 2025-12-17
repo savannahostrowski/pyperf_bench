@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: cde19e5
 - commit date: 2025-11-22
-- overall geometric mean: 1.042x faster
-- HPT reliability: 51.69%
+- overall geometric mean: 1.047x faster
+- HPT reliability: 56.26%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.02x
 
@@ -206,11 +206,11 @@ All benchmarks:
 Benchmark hidden because not significant (6): create_gc_cycles, unpickle, gc_traversal, async_tree_memoization, regex_effbot, regex_dna
 Ignored benchmarks (1) of results/bm-20251122-3.15.0a2+-cde19e5/bm-20251122-blueberry-aarch64-python-cde19e565cc9127fe5db-3.15.0a2+-cde19e5.json: docutils
 
-- Geometric mean (including insignificant results): 1.042x faster
+- Geometric mean (including insignificant results): 1.047x faster
 
 # HPT report
 
-- Reliability score: 51.69% likely to be faster
+- Reliability score: 56.26% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

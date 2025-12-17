@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: bef63d2
 - commit date: 2025-12-15
-- overall geometric mean: 1.024x faster
-- HPT reliability: 96.91%
+- overall geometric mean: 1.028x faster
+- HPT reliability: 96.93%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.03x
 
@@ -184,11 +184,11 @@ All benchmarks:
 Benchmark hidden because not significant (30): crypto_pyaes, logging_simple, meteor_contest, raytrace, async_tree_cpu_io_mixed_tg, json_loads, xdsl_constant_fold, chameleon, async_tree_none_tg, create_gc_cycles, sqlglot_v2_transpile, async_tree_none, django_template, asyncio_tcp_ssl, pprint_safe_repr, sqlalchemy_imperative, typing_runtime_protocols, 2to3, subparsers, async_tree_cpu_io_mixed, coverage, sqlglot_v2_optimize, deepcopy_reduce, pprint_pformat, sqlglot_v2_normalize, regex_compile, logging_format, async_tree_io, async_tree_memoization, bench_thread_pool
 Ignored benchmarks (5) of results/bm-20251215-3.15.0a2+-bef63d2/bm-20251215-blueberry-aarch64-python-bef63d2fb81ae2876004-3.15.0a2+-bef63d2.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.024x faster
+- Geometric mean (including insignificant results): 1.028x faster
 
 # HPT report
 
-- Reliability score: 96.91% likely to be faster
+- Reliability score: 96.93% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

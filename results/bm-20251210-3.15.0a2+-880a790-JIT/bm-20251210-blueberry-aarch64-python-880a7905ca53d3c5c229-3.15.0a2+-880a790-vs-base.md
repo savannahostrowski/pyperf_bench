@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: 880a790
 - commit date: 2025-12-10
-- overall geometric mean: 1.040x slower
-- HPT reliability: 99.99%
+- overall geometric mean: 1.049x slower
+- HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
 - Memory change: 1.03x
 
@@ -205,12 +205,12 @@ All benchmarks:
 
 Benchmark hidden because not significant (12): deepcopy_reduce, tomli_loads, connected_components, asyncio_websockets, tornado_http, unpickle_list, async_tree_cpu_io_mixed_tg, async_tree_cpu_io_mixed, async_tree_io, async_tree_memoization, async_tree_none_tg, html5lib
 
-- Geometric mean (including insignificant results): 1.040x slower
+- Geometric mean (including insignificant results): 1.049x slower
 
 # HPT report
 
-- Reliability score: 99.99% likely to be slow
-- 90% likely to have a slowdown of 1.01x
+- Reliability score: 100.00% likely to be slow
+- 90% likely to have a slowdown of 1.02x
 - 95% likely to have a slowdown of 1.01x
 - 99% likely to have a slowdown of 1.01x
 

@@ -5,10 +5,10 @@
 - machine: darwin-arm64
 - commit hash: d844d22
 - commit date: 2025-12-14
-- overall geometric mean: 1.090x faster
-- HPT reliability: 100.00%
+- overall geometric mean: 1.082x faster
+- HPT reliability: 99.99%
 - HPT 99th percentile: 1.01x faster
-- Memory change: 1.03x
+- Memory change: 1.02x
 
 Benchmarks with tag 'apps':
 ===========================
@@ -210,14 +210,14 @@ All benchmarks:
 Benchmark hidden because not significant (9): async_tree_io_tg, connected_components, unpickle, xdsl_constant_fold, regex_v8, sphinx, sqlglot_v2_normalize, unpickle_list, async_tree_memoization_tg
 Ignored benchmarks (5) of results/bm-20251214-3.15.0a2+-d844d22/bm-20251214-jones-arm64-python-d844d22cb00e4a8a224a-3.15.0a2+-d844d22.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.090x faster
+- Geometric mean (including insignificant results): 1.082x faster
 
 # HPT report
 
-- Reliability score: 100.00% likely to be faster
+- Reliability score: 99.99% likely to be faster
 - 90% likely to have a speedup of 1.02x
-- 95% likely to have a speedup of 1.02x
+- 95% likely to have a speedup of 1.01x
 - 99% likely to have a speedup of 1.01x
 
 # Memory
-- memory change: 1.03x
+- memory change: 1.02x

@@ -5,8 +5,8 @@
 - machine: linux-aarch64
 - commit hash: dc62b62
 - commit date: 2025-11-24
-- overall geometric mean: 1.108x faster
-- HPT reliability: 89.63%
+- overall geometric mean: 1.083x faster
+- HPT reliability: 82.43%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.03x
 
@@ -199,11 +199,11 @@ All benchmarks:
 
 Benchmark hidden because not significant (10): pickle_pure_python, pickle, async_tree_cpu_io_mixed, async_tree_memoization_tg, regex_compile, django_template, asyncio_tcp, async_tree_io_tg, async_tree_memoization, async_tree_io
 
-- Geometric mean (including insignificant results): 1.108x faster
+- Geometric mean (including insignificant results): 1.083x faster
 
 # HPT report
 
-- Reliability score: 89.63% likely to be faster
+- Reliability score: 82.43% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

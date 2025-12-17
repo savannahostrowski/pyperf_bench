@@ -5,9 +5,9 @@
 - machine: linux-aarch64
 - commit hash: 726e8e8
 - commit date: 2025-12-08
-- overall geometric mean: 1.055x slower
+- overall geometric mean: 1.063x slower
 - HPT reliability: 100.00%
-- HPT 99th percentile: 1.00x slower
+- HPT 99th percentile: 1.01x slower
 - Memory change: 1.03x
 
 Benchmarks with tag 'apps':
@@ -197,14 +197,14 @@ All benchmarks:
 
 Benchmark hidden because not significant (12): unpickle, k_core, asyncio_websockets, gc_traversal, scimark_lu, async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_cpu_io_mixed, async_tree_none, async_tree_io, async_tree_none_tg, async_tree_memoization
 
-- Geometric mean (including insignificant results): 1.055x slower
+- Geometric mean (including insignificant results): 1.063x slower
 
 # HPT report
 
 - Reliability score: 100.00% likely to be slow
 - 90% likely to have a slowdown of 1.01x
 - 95% likely to have a slowdown of 1.01x
-- 99% likely to have a slowdown of 1.00x
+- 99% likely to have a slowdown of 1.01x
 
 # Memory
 - memory change: 1.03x

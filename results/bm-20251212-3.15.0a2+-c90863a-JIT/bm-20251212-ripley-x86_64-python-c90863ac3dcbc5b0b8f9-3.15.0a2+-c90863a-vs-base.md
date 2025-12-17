@@ -5,8 +5,8 @@
 - machine: linux-x86_64
 - commit hash: c90863a
 - commit date: 2025-12-12
-- overall geometric mean: 1.029x faster
-- HPT reliability: 82.59%
+- overall geometric mean: 1.025x faster
+- HPT reliability: 88.69%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.04x
 
@@ -194,11 +194,11 @@ All benchmarks:
 Benchmark hidden because not significant (16): async_tree_none, async_tree_cpu_io_mixed_tg, deepcopy, xml_etree_parse, coroutines, async_tree_cpu_io_mixed, asyncio_websockets, unpickle, pycparser, json_loads, regex_compile, async_tree_io, logging_simple, async_tree_memoization, async_tree_none_tg, typing_runtime_protocols
 Ignored benchmarks (5) of results/bm-20251212-3.15.0a2+-c90863a/bm-20251212-ripley-x86_64-python-c90863ac3dcbc5b0b8f9-3.15.0a2+-c90863a.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.029x faster
+- Geometric mean (including insignificant results): 1.025x faster
 
 # HPT report
 
-- Reliability score: 82.59% likely to be faster
+- Reliability score: 88.69% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x

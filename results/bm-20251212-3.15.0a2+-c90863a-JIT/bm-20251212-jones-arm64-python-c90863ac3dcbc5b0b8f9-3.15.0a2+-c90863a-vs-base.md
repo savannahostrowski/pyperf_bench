@@ -5,9 +5,9 @@
 - machine: darwin-arm64
 - commit hash: c90863a
 - commit date: 2025-12-12
-- overall geometric mean: 1.095x faster
+- overall geometric mean: 1.088x faster
 - HPT reliability: 100.00%
-- HPT 99th percentile: 1.03x faster
+- HPT 99th percentile: 1.02x faster
 - Memory change: 1.03x
 
 Benchmarks with tag 'apps':
@@ -206,14 +206,14 @@ All benchmarks:
 Benchmark hidden because not significant (9): xdsl_constant_fold, bench_mp_pool, sphinx, dulwich_log, pickle_list, pickle, unpickle, unpickle_list, tornado_http
 Ignored benchmarks (5) of results/bm-20251212-3.15.0a2+-c90863a/bm-20251212-jones-arm64-python-c90863ac3dcbc5b0b8f9-3.15.0a2+-c90863a.json: docutils, sympy_expand, sympy_integrate, sympy_str, sympy_sum
 
-- Geometric mean (including insignificant results): 1.095x faster
+- Geometric mean (including insignificant results): 1.088x faster
 
 # HPT report
 
 - Reliability score: 100.00% likely to be faster
-- 90% likely to have a speedup of 1.04x
+- 90% likely to have a speedup of 1.03x
 - 95% likely to have a speedup of 1.03x
-- 99% likely to have a speedup of 1.03x
+- 99% likely to have a speedup of 1.02x
 
 # Memory
 - memory change: 1.03x

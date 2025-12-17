@@ -5,9 +5,9 @@
 - machine: darwin-arm64
 - commit hash: 726e8e8
 - commit date: 2025-12-08
-- overall geometric mean: 1.019x faster
-- HPT reliability: 50.93%
-- HPT 99th percentile: 1.00x faster
+- overall geometric mean: 1.018x faster
+- HPT reliability: 61.01%
+- HPT 99th percentile: 1.00x slower
 - Memory change: 1.03x
 
 Benchmarks with tag 'apps':
@@ -203,14 +203,14 @@ All benchmarks:
 
 Benchmark hidden because not significant (11): pycparser, json_loads, async_tree_memoization_tg, bench_thread_pool, pickle_list, pidigits, tomli_loads, many_optionals, pathlib, pickle, asyncio_tcp
 
-- Geometric mean (including insignificant results): 1.019x faster
+- Geometric mean (including insignificant results): 1.018x faster
 
 # HPT report
 
-- Reliability score: 50.93% likely to be faster
-- 90% likely to have a speedup of 1.00x
-- 95% likely to have a speedup of 1.00x
-- 99% likely to have a speedup of 1.00x
+- Reliability score: 61.01% likely to be slow
+- 90% likely to have a slowdown of 1.00x
+- 95% likely to have a slowdown of 1.00x
+- 99% likely to have a slowdown of 1.00x
 
 # Memory
 - memory change: 1.03x

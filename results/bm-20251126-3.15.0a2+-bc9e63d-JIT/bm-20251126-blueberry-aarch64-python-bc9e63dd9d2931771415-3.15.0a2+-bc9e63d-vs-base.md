@@ -5,10 +5,10 @@
 - machine: linux-aarch64
 - commit hash: bc9e63d
 - commit date: 2025-11-26
-- overall geometric mean: 1.074x slower
+- overall geometric mean: 1.073x slower
 - HPT reliability: 100.00%
 - HPT 99th percentile: 1.01x slower
-- Memory change: 1.02x
+- Memory change: 1.03x
 
 Benchmarks with tag 'apps':
 ===========================
@@ -188,7 +188,7 @@ All benchmarks:
 Benchmark hidden because not significant (13): async_tree_none_tg, async_tree_cpu_io_mixed, async_tree_none, python_startup, unpickle_list, python_startup_no_site, async_tree_memoization, scimark_monte_carlo, pickle_dict, async_tree_io, async_tree_memoization_tg, subparsers, async_tree_io_tg
 Ignored benchmarks (1) of results/bm-20251126-3.15.0a2+-bc9e63d/bm-20251126-blueberry-aarch64-python-bc9e63dd9d2931771415-3.15.0a2+-bc9e63d.json: docutils
 
-- Geometric mean (including insignificant results): 1.074x slower
+- Geometric mean (including insignificant results): 1.073x slower
 
 # HPT report
 
@@ -198,4 +198,4 @@ Ignored benchmarks (1) of results/bm-20251126-3.15.0a2+-bc9e63d/bm-20251126-blue
 - 99% likely to have a slowdown of 1.01x
 
 # Memory
-- memory change: 1.02x
+- memory change: 1.03x

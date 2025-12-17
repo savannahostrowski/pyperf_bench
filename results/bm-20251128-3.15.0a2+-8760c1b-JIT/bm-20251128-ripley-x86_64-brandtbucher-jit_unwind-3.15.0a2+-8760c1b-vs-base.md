@@ -6,7 +6,7 @@
 - commit hash: 8760c1b
 - commit date: 2025-11-28
 - overall geometric mean: 1.005x faster
-- HPT reliability: 97.97%
+- HPT reliability: 97.61%
 - HPT 99th percentile: 1.00x faster
 - Memory change: 1.00x
 
@@ -186,7 +186,7 @@ Benchmark hidden because not significant (26): bench_mp_pool, unpack_sequence, a
 
 # HPT report
 
-- Reliability score: 97.97% likely to be faster
+- Reliability score: 97.61% likely to be faster
 - 90% likely to have a speedup of 1.00x
 - 95% likely to have a speedup of 1.00x
 - 99% likely to have a speedup of 1.00x
