@@ -4,7 +4,7 @@
 - version: 3.15.0a3+
 - config: JIT
 - commit hash: [89729f2](https://github.com/python/cpython/commit/89729f2)
-- commit date: 2025-12-17T00:12:32+00:00
+- commit date: 2025-12-16T00:12:32+00:00
 - commit merge base: [434525398196db692196661d15e678b3d514aa54](https://github.com/python/cpython/commit/434525398196db692196661d15e678b3d514aa54)
 - ref: 89729f2ef7f9473d9e4b
 
