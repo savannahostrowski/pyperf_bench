@@ -82,10 +82,6 @@ use_cores = 11
 [publish_mirror]
 skip = true
 
-[install]
-# Skip generating these template files
-skip_templates = ["ci.src.yml"]
-
 [weekly]
 # Weekly runs disabled - using nightly instead
 
