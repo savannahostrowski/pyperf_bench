@@ -334,29 +334,26 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-windows-x86_64-prometheus:
     runs-on: [self-hosted, windows, windows-x86_64-prometheus]
-    timeout-minutes: 1440
 
     steps:
+      # Tell git to checkout repos with symlinks (required by pyston
+      # benchmarks).
+      # Requires "Developer Mode" switched on in Windows 10/11
     - name: Setup environment
-      run: |
-        echo "BUILD_DEST=PCbuild/amd64" >>$env:GITHUB_ENV
-        echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >>$env:GITHUB_ENV
-    - name: Checkout benchmarking
-      uses: actions/checkout@v4
+      run: |-
+        echo "BUILD_DEST=PCbuild/amd64" >> $env:GITHUB_ENV
+        echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >> $env:GITHUB_ENV
     - name: Enable symlinks for git
       run: |
         git config --global core.symlinks true
+    - name: Checkout benchmarking
+      uses: actions/checkout@v4
     - name: git gc
       run: |
         git gc
-    - uses: fregante/setup-git-user@v2
-    - name: Setup system Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
     - name: Building Python and running pyperformance
       run: |
-        python workflow_bootstrap.py ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{ inputs.tailcall == true && 'tailcall' || '' }} ${{ inputs.force && '--force' || '' }} ${{ inputs.pgo && '--pgo' || '' }} --run_id ${{ github.run_id }}
+        python workflow_bootstrap.py ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} ${{ inputs.benchmarks || 'all' }} "${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{ inputs.tailcall == true && 'tailcall' || '' }}" ${{ inputs.force && '--force' || '' }} ${{ inputs.pgo && '--pgo' || '' }} --run_id ${{ github.run_id }}
       # Pull again, since another job may have committed results in the meantime
     - name: Pull benchmarking
       run: |
@@ -365,11 +362,11 @@ jobs:
         # that any local results for this commit will override anything we
         # just pulled in in that case.
         git pull -s recursive -X ours --autostash --rebase
-    - name: Adding data to repo
+    - name: Add data to repo
       uses: EndBug/add-and-commit@v9
       with:
         add: results
-    - name: Upload benchmark artifacts
+    - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: benchmark
