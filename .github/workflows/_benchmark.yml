@@ -343,6 +343,7 @@ jobs:
       run: |-
         echo "BUILD_DEST=PCbuild/amd64" >> $env:GITHUB_ENV
         echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >> $env:GITHUB_ENV
+        echo "BENCH_RUNNER_BRANCH=main" >> $env:GITHUB_ENV
     - name: Enable symlinks for git
       run: |
         git config --global core.symlinks true
