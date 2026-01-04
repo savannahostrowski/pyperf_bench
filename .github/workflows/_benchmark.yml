@@ -338,12 +338,14 @@ jobs:
 
     steps:
     - name: Setup environment
-      run: |-
-        echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >> $env:GITHUB_ENV
-        echo "BUILD_DEST=C:\cpython_build" >> $env:GITHUB_ENV
-      shell: pwsh
+      run: |
+        echo "BUILD_DEST=PCbuild/amd64" >>$env:GITHUB_ENV
+        echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >>$env:GITHUB_ENV
     - name: Checkout benchmarking
       uses: actions/checkout@v4
+    - name: Enable symlinks for git
+      run: |
+        git config --global core.symlinks true
     - name: git gc
       run: |
         git gc
