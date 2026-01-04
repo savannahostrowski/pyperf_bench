@@ -62,6 +62,7 @@ on:
         - linux-arm64-blueberry
         - linux-x86_64-ripley
         - darwin-arm64-jones
+        - windows-x86_64-prometheus
         - all
       benchmarks:
         description: Benchmarks to run (comma-separated; empty runs all 
@@ -326,6 +327,55 @@ jobs:
           profiling/results
 
     if: ${{ (inputs.machine == 'darwin-arm64-jones' || inputs.machine ==
+      '__really_all' || inputs.machine == 'all') }}
+    env:
+      flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true
+        && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{
+        inputs.tailcall == true && 'tailcall' || '' }}
+  benchmark-windows-x86_64-prometheus:
+    runs-on: [self-hosted, windows, windows-x86_64-prometheus]
+    timeout-minutes: 1440
+
+    steps:
+    - name: Setup environment
+      run: |-
+        echo "BENCHMARK_MACHINE_NICKNAME=prometheus" >> $env:GITHUB_ENV
+        echo "BUILD_DEST=C:\cpython_build" >> $env:GITHUB_ENV
+      shell: pwsh
+    - name: Checkout benchmarking
+      uses: actions/checkout@v4
+    - name: git gc
+      run: |
+        git gc
+    - uses: fregante/setup-git-user@v2
+    - name: Setup system Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Building Python and running pyperformance
+      run: |
+        python workflow_bootstrap.py ${{ inputs.fork }} ${{ inputs.ref }} ${{ inputs.machine }} ${{ inputs.benchmarks || 'all' }} ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true && 'jit' || '' }},${{ inputs.nogil == true && 'nogil' || '' }},${{ inputs.tailcall == true && 'tailcall' || '' }} ${{ inputs.force && '--force' || '' }} ${{ inputs.pgo && '--pgo' || '' }} --run_id ${{ github.run_id }}
+      # Pull again, since another job may have committed results in the meantime
+    - name: Pull benchmarking
+      run: |
+        # Another benchmarking task may have created results for the same
+        # commit while the above was running. This "magic" incantation means
+        # that any local results for this commit will override anything we
+        # just pulled in in that case.
+        git pull -s recursive -X ours --autostash --rebase
+    - name: Adding data to repo
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: results
+    - name: Upload benchmark artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: benchmark
+        path: |
+          benchmark.json
+        overwrite: true
+
+    if: ${{ (inputs.machine == 'windows-x86_64-prometheus' || inputs.machine ==
       '__really_all' || inputs.machine == 'all') }}
     env:
       flags: ${{ inputs.tier2 == true && 'tier2' || '' }},${{ inputs.jit == true

@@ -54,9 +54,10 @@ jobs:
     if: ${{ always() }}
     with:
       force: false
-    needs: [pystats, pystats-tier2, nightly-default-blueberry, 
-        nightly-default-ripley, nightly-default-jones, nightly-jit-blueberry, 
-        nightly-jit-ripley, nightly-jit-jones]
+    needs: [pystats, pystats-tier2, nightly-default-blueberry,
+        nightly-default-ripley, nightly-default-jones, nightly-default-prometheus,
+        nightly-jit-blueberry, nightly-jit-ripley, nightly-jit-jones,
+        nightly-jit-prometheus]
     secrets: inherit
 
   nightly-default-blueberry:
@@ -142,6 +143,34 @@ jobs:
       jit: true
       nogil: false
       tailcall: true
+    secrets: inherit
+  nightly-default-prometheus:
+    uses: ./.github/workflows/_benchmark.yml
+    needs: determine_head
+    with:
+      fork: python
+      ref: ${{ needs.determine_head.outputs.commit }}
+      machine: windows-x86_64-prometheus
+      benchmarks: all_and_excluded
+      pgo: true
+      tier2: false
+      jit: false
+      nogil: false
+      tailcall: false
+    secrets: inherit
+  nightly-jit-prometheus:
+    uses: ./.github/workflows/_benchmark.yml
+    needs: determine_head
+    with:
+      fork: python
+      ref: ${{ needs.determine_head.outputs.commit }}
+      machine: windows-x86_64-prometheus
+      benchmarks: all_and_excluded
+      pgo: true
+      tier2: false
+      jit: true
+      nogil: false
+      tailcall: false
     secrets: inherit
 
   trigger-dashboard:
