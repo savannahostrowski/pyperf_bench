@@ -20,7 +20,7 @@
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/20287012605)
 - cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
 - platform: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
-- [pystats raw](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-pystats.json)
 - [pystats table](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-pystats.md)
 - [raw results](bm-20251216-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2.json)
+- [pystats raw](bm-2025126-ripley-x86_64-python-89729f2ef7f9473d9e4b-3.15.0a3%2B-89729f2-pystats.json)
 

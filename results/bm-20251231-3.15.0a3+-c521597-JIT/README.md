@@ -1,0 +1,40 @@
+# Results
+
+- fork: python/c5215978ebfea9471f31
+- version: 3.15.0a3+
+- config: JIT
+- commit hash: [c521597](https://github.com/python/cpython/commit/c521597)
+- commit date: 2025-12-31T21:45:41+01:00
+- commit merge base: [3c4429f65a894af2a0aea2aeed5f61bc399e5af5](https://github.com/python/cpython/commit/3c4429f65a894af2a0aea2aeed5f61bc399e5af5)
+- ref: c5215978ebfea9471f31
+
+## linux aarch64 (blueberry)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/20629584919)
+- cpu model: missing
+- platform: Linux-6.12.25+rpt-rpi-2712-aarch64-with-glibc2.36
+- [raw results](bm-20251231-blueberry-aarch64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597.json)
+
+### vs. base
+
+- Geometric mean: 1.009x faster (HPT: reliability of 53.49%, 1.00x slower at 99th %ile)
+- Memory usage: 1.03x
+- [🧠memory plot](bm-20251231-blueberry-aarch64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base-mem.svg)
+- [📄table](bm-20251231-blueberry-aarch64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base.md)
+- [📈time plot](bm-20251231-blueberry-aarch64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base.svg)
+
+## linux x86_64 (ripley)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/20629584919)
+- cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+- platform: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
+- [raw results](bm-20251231-ripley-x86_64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597.json)
+
+### vs. base
+
+- Geometric mean: 1.036x faster (HPT: reliability of 95.67%, 1.00x faster at 99th %ile)
+- Memory usage: 1.03x
+- [🧠memory plot](bm-20251231-ripley-x86_64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base-mem.svg)
+- [📄table](bm-20251231-ripley-x86_64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base.md)
+- [📈time plot](bm-20251231-ripley-x86_64-python-c5215978ebfea9471f31-3.15.0a3%2B-c521597-vs-base.svg)
+
