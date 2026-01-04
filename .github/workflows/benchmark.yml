@@ -23,6 +23,7 @@ on:
         - linux-arm64-blueberry
         - linux-x86_64-ripley
         - darwin-arm64-jones
+        - windows-x86_64-prometheus
         - all
         - __really_all
       benchmarks:
