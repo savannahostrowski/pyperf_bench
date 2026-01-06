@@ -253,6 +253,7 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-01-06](results/bm-20260106-3.15.0a3%2B-12d363b) | python/main | 12d363b |  |  |  |  |
 | [2026-01-05](results/bm-20260105-3.15.0a3%2B-04ace41-JIT) | python/04ace41fe2cf648be433 | 04ace41 (JIT) |  |  |  |  |
 | [2026-01-04](results/bm-20260104-3.15.0a3%2B-c99f766-JIT) | python/main | c99f766 (JIT) |  |  |  | 1.142x ↓<br>[📄](results/bm-20260104-3.15.0a3%2B-c99f766-JIT/bm-20260104-prometheus-amd64-python-main-3.15.0a3%2B-c99f766-vs-base.md)[📈](results/bm-20260104-3.15.0a3%2B-c99f766-JIT/bm-20260104-prometheus-amd64-python-main-3.15.0a3%2B-c99f766-vs-base.svg) |
 | [2026-01-04](results/bm-20260104-3.15.0a3%2B-c99f766) | python/c99f7667436d8978b407 | c99f766 |  |  |  |  |
