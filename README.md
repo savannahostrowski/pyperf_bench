@@ -11,7 +11,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 **Key:** 📄: table, 📈: time plot, 🧠: memory plot
 
 <!-- START table -->
-- [Most recent  pystats on main (a6bc60d)](results/bm-20260112-3.15.0a3%2B-a6bc60d/bm-20260112-ripley-x86_64-python-a6bc60da02ea37f33d5a-3.15.0a3%2B-a6bc60d-pystats.md)
+- [Most recent  pystats on main (cbf9b8c)](results/bm-20260113-3.15.0a3%2B-cbf9b8c/bm-20260113-ripley-x86_64-python-cbf9b8cc08364cdcf355-3.15.0a3%2B-cbf9b8c-pystats.md)
 - [Most recent PYTHON_UOPS pystats on main (a6bc60d)](results/bm-20260112-3.15.0a3%2B-a6bc60d-PYTHON_UOPS/bm-20260112-ripley-x86_64-python-a6bc60da02ea37f33d5a-3.15.0a3%2B-a6bc60d-pystats.md)
 
 ## unknown x86_64 (linux)
