@@ -334,6 +334,7 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-windows-x86_64-prometheus:
     runs-on: [self-hosted, windows, windows-x86_64-prometheus]
+    timeout-minutes: 1440
 
     steps:
       # Tell git to checkout repos with symlinks (required by pyston
