@@ -15,18 +15,23 @@ jobs:
     outputs:
       commit: ${{ steps.head.outputs.commit }}
     steps:
-    - name: Checkout CPython
+    - name: Checkout benchmarking repo
       uses: actions/checkout@v4
       with:
         persist-credentials: false
-        repository: python/cpython
-        path: cpython
-        ref: main
-    - name: Determine head commit
+    - name: Read pinned commit
       id: head
       run: |
-        cd cpython
-        git log -n 1 --format="commit=%H" >> $GITHUB_OUTPUT
+        if [ -f commit.txt ]; then
+          COMMIT=$(cat commit.txt | tr -d '[:space:]')
+          echo "Using pinned commit: $COMMIT"
+          echo "commit=$COMMIT" >> $GITHUB_OUTPUT
+        else
+          echo "commit.txt not found, falling back to latest CPython main"
+          git clone --depth 1 https://github.com/python/cpython.git cpython
+          cd cpython
+          git log -n 1 --format="commit=%H" >> $GITHUB_OUTPUT
+        fi
 
   pystats:
     uses: ./.github/workflows/_pystats.yml

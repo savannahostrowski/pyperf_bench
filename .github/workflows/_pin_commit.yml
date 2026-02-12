@@ -1,0 +1,40 @@
+---
+name: _pin_commit
+
+on:
+  schedule:
+  - cron: "0 2 * * *"  # 6:00 PM PST / 2:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout benchmarking repo
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+    - name: Checkout CPython
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        repository: python/cpython
+        path: cpython
+        ref: main
+    - name: Pin commit SHA
+      run: |
+        cd cpython
+        SHA=$(git log -n 1 --format="%H")
+        echo "$SHA" > ../commit.txt
+        echo "Pinned commit: $SHA"
+    - name: Commit and push
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add commit.txt
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Pin CPython commit for $(date -u +%Y-%m-%d) nightly"
+          git push
+        fi
