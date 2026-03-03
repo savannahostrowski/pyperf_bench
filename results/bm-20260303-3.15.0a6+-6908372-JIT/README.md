@@ -31,6 +31,15 @@
 - platform: Linux-6.8.0-100-generic-x86_64-with-glibc2.39
 - [raw results](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372.json)
 
+### vs. base
+
+- Geometric mean: 1.059x faster (HPT: reliability of 99.99%, 1.00x faster at 99th %ile)
+- Memory usage: 1.01x
+- missing benchmarks: 🔴 genshi_text, genshi_xml
+- [🧠memory plot](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372-vs-base-mem.svg)
+- [📄table](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372-vs-base.md)
+- [📈time plot](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372-vs-base.svg)
+
 ## windows amd64 (prometheus)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/22616329189)

@@ -17,8 +17,12 @@
 
 ## linux x86_64 (ripley)
 
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/22616329189)
+- cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+- platform: Linux-6.8.0-100-generic-x86_64-with-glibc2.39
 - [pystats raw](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372-pystats.json)
 - [pystats table](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372-pystats.md)
+- [raw results](bm-20260303-ripley-x86_64-python-6908372fb8182be5849a-3.15.0a6%2B-6908372.json)
 
 ## windows amd64 (prometheus)
 
