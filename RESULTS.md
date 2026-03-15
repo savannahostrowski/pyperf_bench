@@ -666,6 +666,7 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-03-15](results/bm-20260315-3.15.0a7%2B-2e9b980-JIT%2CTAILCALL) | Fidget-Spinner/resume_tracing | 2e9b980 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-03-14](results/bm-20260314-3.15.0a7%2B-1dfe99a-TAILCALL) | python/1dfe99ae3bed6cac0173 | 1dfe99a (TAILCALL) |  |  |  |  |
 | [2026-03-14](results/bm-20260314-3.15.0a7%2B-1dfe99a-JIT%2CTAILCALL) | python/1dfe99ae3bed6cac0173 | 1dfe99a (JIT) (TAILCALL) |  |  |  |  |
 | [2026-03-13](results/bm-20260313-3.15.0a7%2B-3c38feb-TAILCALL) | python/3c38feb2a21aacdb009e | 3c38feb (TAILCALL) |  |  |  |  |
