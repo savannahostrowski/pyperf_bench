@@ -3,7 +3,7 @@ name: _pin_commit
 
 on:
   schedule:
-  - cron: "0 2 * * *"  # 6:00 PM PST / 2:00 UTC
+  - cron: "0 23 * * *"  # 3:00 PM PST / 23:00 UTC
   workflow_dispatch: {}
 
 jobs:
