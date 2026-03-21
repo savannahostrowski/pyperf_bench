@@ -66,6 +66,7 @@ jobs:
 
   nightly-default-blueberry:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -80,6 +81,7 @@ jobs:
     secrets: inherit
   nightly-default-ripley:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -94,6 +96,7 @@ jobs:
     secrets: inherit
   nightly-default-jones:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -108,6 +111,7 @@ jobs:
     secrets: inherit
   nightly-jit-blueberry:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -122,6 +126,7 @@ jobs:
     secrets: inherit
   nightly-jit-ripley:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -136,6 +141,7 @@ jobs:
     secrets: inherit
   nightly-jit-jones:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -150,6 +156,7 @@ jobs:
     secrets: inherit
   nightly-default-prometheus:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
@@ -164,6 +171,7 @@ jobs:
     secrets: inherit
   nightly-jit-prometheus:
     uses: ./.github/workflows/_benchmark.yml
+    timeout-minutes: 180
     needs: determine_head
     with:
       fork: python
