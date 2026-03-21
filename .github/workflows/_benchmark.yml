@@ -94,7 +94,7 @@ on:
 jobs:
   benchmark-linux-arm64-blueberry:
     runs-on: [self-hosted, linux, bare-metal, linux-arm64-blueberry]
-    timeout-minutes: 1440
+    timeout-minutes: 180
 
     steps:
     - name: Setup environment
@@ -153,7 +153,7 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-linux-arm64-blueberry-clang:
     runs-on: [self-hosted, linux, bare-metal, linux-arm64-blueberry]
-    timeout-minutes: 1440
+    timeout-minutes: 180
 
     steps:
     - name: Setup environment
@@ -216,7 +216,7 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-linux-x86_64-ripley:
     runs-on: [self-hosted, linux, bare-metal, linux-x86_64-ripley]
-    timeout-minutes: 1440
+    timeout-minutes: 180
 
     steps:
     - name: Setup environment
@@ -275,7 +275,7 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-darwin-arm64-jones:
     runs-on: [self-hosted, darwin, bare-metal, darwin-arm64-jones]
-    timeout-minutes: 1440
+    timeout-minutes: 180
 
     steps:
     - name: Setup environment
@@ -334,7 +334,7 @@ jobs:
         inputs.tailcall == true && 'tailcall' || '' }}
   benchmark-windows-x86_64-prometheus:
     runs-on: [self-hosted, windows, windows-x86_64-prometheus]
-    timeout-minutes: 1440
+    timeout-minutes: 180
 
     steps:
       # Tell git to checkout repos with symlinks (required by pyston
