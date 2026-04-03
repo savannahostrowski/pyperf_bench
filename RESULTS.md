@@ -602,6 +602,7 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-03](results/bm-20260403-3.15.0a7%2B-80d0a85-JIT%2CTAILCALL) | python/main | 80d0a85 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-02](results/bm-20260402-3.15.0a7%2B-617f4cc-JIT) | python/617f4cc1c2605b86b483 | 617f4cc (JIT) |  |  |  | 1.214x ↑<br>[📄](results/bm-20260402-3.15.0a7%2B-617f4cc-JIT/bm-20260402-prometheus-amd64-python-617f4cc1c2605b86b483-3.15.0a7%2B-617f4cc-vs-base.md)[📈](results/bm-20260402-3.15.0a7%2B-617f4cc-JIT/bm-20260402-prometheus-amd64-python-617f4cc1c2605b86b483-3.15.0a7%2B-617f4cc-vs-base.svg) |
 | [2026-04-02](results/bm-20260402-3.15.0a7%2B-617f4cc) | python/617f4cc1c2605b86b483 | 617f4cc |  |  |  |  |
 | [2026-04-01](results/bm-20260401-3.15.0a7%2B-c32e264-JIT) | python/c32e264227b1fee3a643 | c32e264 (JIT) |  |  |  | 1.215x ↑<br>[📄](results/bm-20260401-3.15.0a7%2B-c32e264-JIT/bm-20260401-prometheus-amd64-python-c32e264227b1fee3a643-3.15.0a7%2B-c32e264-vs-base.md)[📈](results/bm-20260401-3.15.0a7%2B-c32e264-JIT/bm-20260401-prometheus-amd64-python-c32e264227b1fee3a643-3.15.0a7%2B-c32e264-vs-base.svg) |
