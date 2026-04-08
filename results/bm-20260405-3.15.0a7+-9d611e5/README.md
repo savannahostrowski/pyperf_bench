@@ -22,3 +22,11 @@
 - platform: macOS-26.3.1-arm64-arm-64bit-Mach-O
 - [raw results](bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5.json)
 
+### vs. base
+
+- Geometric mean: 1.001x slower (HPT: reliability of 73.32%, 1.00x faster at 99th %ile)
+- Memory usage: 1.00x
+- [🧠memory plot](bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base-mem.svg)
+- [📄table](bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base.md)
+- [📈time plot](bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base.svg)
+

@@ -819,7 +819,8 @@
 | [2026-04-06](results/bm-20260406-3.15.0a7%2B-ca960b6-JIT%2CTAILCALL) | python/ca960b6f38b16a7fdf54 | ca960b6 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-05](results/bm-20260405-3.15.0a7%2B-bce96a1-TAILCALL) | python/bce96a181350f348560f | bce96a1 (TAILCALL) |  |  |  |  |
 | [2026-04-05](results/bm-20260405-3.15.0a7%2B-bce96a1-JIT%2CTAILCALL) | python/bce96a181350f348560f | bce96a1 (JIT) (TAILCALL) |  |  |  |  |
-| [2026-04-05](results/bm-20260405-3.15.0a7%2B-9d611e5) | pablogsal/frame_pointers | 9d611e5 |  |  |  |  |
+| [2026-04-05](results/bm-20260405-3.15.0a7%2B-9d611e5) | pablogsal/frame_pointers | 9d611e5 |  |  |  | 1.001x ↓<br>[📄](results/bm-20260405-3.15.0a7%2B-9d611e5/bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base.md)[📈](results/bm-20260405-3.15.0a7%2B-9d611e5/bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base.svg)[🧠](results/bm-20260405-3.15.0a7%2B-9d611e5/bm-20260405-jones-arm64-pablogsal-frame_pointers-3.15.0a7%2B-9d611e5-vs-base-mem.svg) |
+| [2026-04-05](results/bm-20260405-3.15.0a7%2B-b07becb) | python/b07becb57371b733b9cc | b07becb |  |  |  |  |
 | [2026-04-05](results/bm-20260405-3.15.0a7%2B-1f36a51-TAILCALL) | python/1f36a510a2a16e8ff155 | 1f36a51 (TAILCALL) |  |  |  |  |
 | [2026-04-05](results/bm-20260405-3.15.0a7%2B-1f36a51-JIT%2CTAILCALL) | python/1f36a510a2a16e8ff155 | 1f36a51 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-03](results/bm-20260403-3.15.0a7%2B-dea4083-TAILCALL) | python/dea4083aa952c955a7c3 | dea4083 (TAILCALL) |  |  |  |  |
