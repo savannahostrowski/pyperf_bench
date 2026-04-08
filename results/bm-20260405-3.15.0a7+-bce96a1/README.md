@@ -15,6 +15,15 @@
 - platform: Linux-6.12.47+rpt-rpi-2712-aarch64-with-glibc2.36
 - [raw results](bm-20260405-blueberry-aarch64-python-bce96a181350f348560f-3.15.0a7%2B-bce96a1.json)
 
+### vs. base
+
+- Geometric mean: 1.001x faster (HPT: reliability of 83.53%, 1.00x faster at 99th %ile)
+- Memory usage: 1.00x
+- new benchmarks: asyncio_tcp, asyncio_tcp_ssl, bench_mp_pool, bench_thread_pool, pickle, pickle_dict, pickle_list, unpack_sequence, unpickle, unpickle_list
+- [🧠memory plot](bm-20260405-blueberry-aarch64-python-bce96a181350f348560f-3.15.0a7%2B-bce96a1-vs-base-mem.svg)
+- [📄table](bm-20260405-blueberry-aarch64-python-bce96a181350f348560f-3.15.0a7%2B-bce96a1-vs-base.md)
+- [📈time plot](bm-20260405-blueberry-aarch64-python-bce96a181350f348560f-3.15.0a7%2B-bce96a1-vs-base.svg)
+
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/24026829775)
