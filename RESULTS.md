@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (2faceee)](results/bm-20260416-3.15.0a8%2B-2faceee/bm-20260416-ripley-x86_64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (2faceee)](results/bm-20260416-3.15.0a8%2B-2faceee-PYTHON_UOPS/bm-20260416-ripley-x86_64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-pystats.md)
+- [Most recent  pystats on main (db3e990)](results/bm-20260417-3.15.0a8%2B-db3e990/bm-20260417-ripley-x86_64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (db3e990)](results/bm-20260417-3.15.0a8%2B-db3e990-PYTHON_UOPS/bm-20260417-ripley-x86_64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -12,6 +12,8 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-JIT) | python/db3e990b98fd12fee1bf | db3e990 (JIT) |  |  |  | 1.010x ↑<br>[📄](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-blueberry-aarch64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base.md)[📈](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-blueberry-aarch64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base.svg)[🧠](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-blueberry-aarch64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base-mem.svg) |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990) | python/db3e990b98fd12fee1bf | db3e990 |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-JIT) | python/2faceeec5c0fb06498a9 | 2faceee (JIT) |  |  |  | 1.012x ↑<br>[📄](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-blueberry-aarch64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base.md)[📈](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-blueberry-aarch64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base.svg)[🧠](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-blueberry-aarch64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base-mem.svg) |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee) | python/2faceeec5c0fb06498a9 | 2faceee |  |  |  |  |
 | [2026-04-15](results/bm-20260415-3.15.0a8%2B-54607ee-JIT) | python/54607eec34b42d377a12 | 54607ee (JIT) |  |  |  | 1.002x ↑<br>[📄](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-blueberry-aarch64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base.md)[📈](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-blueberry-aarch64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base.svg)[🧠](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-blueberry-aarch64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base-mem.svg) |
@@ -348,6 +350,8 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-JIT) | python/db3e990b98fd12fee1bf | db3e990 (JIT) |  |  |  | 1.080x ↑<br>[📄](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-ripley-x86_64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base.md)[📈](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-ripley-x86_64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base.svg)[🧠](results/bm-20260417-3.15.0a8%2B-db3e990-JIT/bm-20260417-ripley-x86_64-python-db3e990b98fd12fee1bf-3.15.0a8%2B-db3e990-vs-base-mem.svg) |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990) | python/db3e990b98fd12fee1bf | db3e990 |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-JIT) | python/2faceeec5c0fb06498a9 | 2faceee (JIT) |  |  |  | 1.076x ↑<br>[📄](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-ripley-x86_64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base.md)[📈](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-ripley-x86_64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base.svg)[🧠](results/bm-20260416-3.15.0a8%2B-2faceee-JIT/bm-20260416-ripley-x86_64-python-2faceeec5c0fb06498a9-3.15.0a8%2B-2faceee-vs-base-mem.svg) |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee) | python/2faceeec5c0fb06498a9 | 2faceee |  |  |  |  |
 | [2026-04-15](results/bm-20260415-3.15.0a8%2B-54607ee-JIT) | python/54607eec34b42d377a12 | 54607ee (JIT) |  |  |  | 1.084x ↑<br>[📄](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-ripley-x86_64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base.md)[📈](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-ripley-x86_64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base.svg)[🧠](results/bm-20260415-3.15.0a8%2B-54607ee-JIT/bm-20260415-ripley-x86_64-python-54607eec34b42d377a12-3.15.0a8%2B-54607ee-vs-base-mem.svg) |
@@ -660,6 +664,8 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-TAILCALL) | python/db3e990b98fd12fee1bf | db3e990 (TAILCALL) |  |  |  |  |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-JIT%2CTAILCALL) | python/db3e990b98fd12fee1bf | db3e990 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-TAILCALL) | python/2faceeec5c0fb06498a9 | 2faceee (TAILCALL) |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-JIT%2CTAILCALL) | python/2faceeec5c0fb06498a9 | 2faceee (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-15](results/bm-20260415-3.15.0a8%2B-54607ee-TAILCALL) | python/54607eec34b42d377a12 | 54607ee (TAILCALL) |  |  |  |  |
@@ -868,6 +874,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-TAILCALL) | python/db3e990b98fd12fee1bf | db3e990 (TAILCALL) |  |  |  |  |
+| [2026-04-17](results/bm-20260417-3.15.0a8%2B-db3e990-JIT%2CTAILCALL) | python/db3e990b98fd12fee1bf | db3e990 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-TAILCALL) | python/2faceeec5c0fb06498a9 | 2faceee (TAILCALL) |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-2faceee-JIT%2CTAILCALL) | python/2faceeec5c0fb06498a9 | 2faceee (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-16](results/bm-20260416-3.15.0a8%2B-cecf564-JIT) | python/main | cecf564 (JIT) |  |  |  |  |
