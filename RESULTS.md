@@ -12,6 +12,7 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-20](results/bm-20260420-3.15.0a8%2B-3fd61b7-JIT) | python/main | 3fd61b7 (JIT) |  |  |  |  |
 | [2026-04-20](results/bm-20260420-3.15.0a8%2B-8276778-JIT) | python/82767780f8de2fc49256 | 8276778 (JIT) |  |  |  | 1.000x ↑<br>[📄](results/bm-20260420-3.15.0a8%2B-8276778-JIT/bm-20260420-blueberry-aarch64-python-82767780f8de2fc49256-3.15.0a8%2B-8276778-vs-base.md)[📈](results/bm-20260420-3.15.0a8%2B-8276778-JIT/bm-20260420-blueberry-aarch64-python-82767780f8de2fc49256-3.15.0a8%2B-8276778-vs-base.svg)[🧠](results/bm-20260420-3.15.0a8%2B-8276778-JIT/bm-20260420-blueberry-aarch64-python-82767780f8de2fc49256-3.15.0a8%2B-8276778-vs-base-mem.svg) |
 | [2026-04-20](results/bm-20260420-3.15.0a8%2B-8276778) | python/82767780f8de2fc49256 | 8276778 |  |  |  |  |
 | [2026-04-18](results/bm-20260418-3.15.0a8%2B-4b33308-JIT) | python/4b3330813760a3e3c75c | 4b33308 (JIT) |  |  |  | 1.005x ↑<br>[📄](results/bm-20260418-3.15.0a8%2B-4b33308-JIT/bm-20260418-blueberry-aarch64-python-4b3330813760a3e3c75c-3.15.0a8%2B-4b33308-vs-base.md)[📈](results/bm-20260418-3.15.0a8%2B-4b33308-JIT/bm-20260418-blueberry-aarch64-python-4b3330813760a3e3c75c-3.15.0a8%2B-4b33308-vs-base.svg)[🧠](results/bm-20260418-3.15.0a8%2B-4b33308-JIT/bm-20260418-blueberry-aarch64-python-4b3330813760a3e3c75c-3.15.0a8%2B-4b33308-vs-base-mem.svg) |
