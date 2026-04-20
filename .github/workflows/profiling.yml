@@ -109,7 +109,7 @@ jobs:
           ![jit](jit.svg)
           EOF
 
-      - uses: fregante/setup-git-user@024bc0e177d7e77203b48dab6fb45666854b35 # v2.0.2 
+      - uses: fregante/setup-git-user@024bc0b8e177d7e77203b48dab6fb45666854b35 # v2.0.2
 
       - name: Commit profiling results
         uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10.0.0
