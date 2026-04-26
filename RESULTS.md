@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (95559d2)](results/bm-20260424-3.15.0a8%2B-95559d2/bm-20260424-ripley-x86_64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (95559d2)](results/bm-20260424-3.15.0a8%2B-95559d2-PYTHON_UOPS/bm-20260424-ripley-x86_64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-pystats.md)
+- [Most recent  pystats on main (c5fcdb4)](results/bm-20260425-3.15.0a8%2B-c5fcdb4/bm-20260425-ripley-x86_64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (c5fcdb4)](results/bm-20260425-3.15.0a8%2B-c5fcdb4-PYTHON_UOPS/bm-20260425-ripley-x86_64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -12,6 +12,8 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (JIT) |  |  |  | 1.010x ↑<br>[📄](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-blueberry-aarch64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base.md)[📈](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-blueberry-aarch64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base.svg)[🧠](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-blueberry-aarch64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base-mem.svg) |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-JIT) | python/95559d2a7e0071342dff | 95559d2 (JIT) |  |  |  | 1.011x ↑<br>[📄](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-blueberry-aarch64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base.md)[📈](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-blueberry-aarch64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base.svg)[🧠](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-blueberry-aarch64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base-mem.svg) |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2) | python/95559d2a7e0071342dff | 95559d2 |  |  |  |  |
 | [2026-04-23](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT) | python/448d7b96c181d13ca7f8 | 448d7b9 (JIT) |  |  |  | 1.006x ↑<br>[📄](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-blueberry-aarch64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base.md)[📈](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-blueberry-aarch64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base.svg)[🧠](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-blueberry-aarch64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base-mem.svg) |
@@ -365,6 +367,8 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (JIT) |  |  |  | 1.082x ↑<br>[📄](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-ripley-x86_64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base.md)[📈](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-ripley-x86_64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base.svg)[🧠](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT/bm-20260425-ripley-x86_64-python-c5fcdb4a9bd04b88f363-3.15.0a8%2B-c5fcdb4-vs-base-mem.svg) |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-JIT) | python/95559d2a7e0071342dff | 95559d2 (JIT) |  |  |  | 1.084x ↑<br>[📄](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-ripley-x86_64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base.md)[📈](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-ripley-x86_64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base.svg)[🧠](results/bm-20260424-3.15.0a8%2B-95559d2-JIT/bm-20260424-ripley-x86_64-python-95559d2a7e0071342dff-3.15.0a8%2B-95559d2-vs-base-mem.svg) |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2) | python/95559d2a7e0071342dff | 95559d2 |  |  |  |  |
 | [2026-04-23](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT) | python/448d7b96c181d13ca7f8 | 448d7b9 (JIT) |  |  |  | 1.089x ↑<br>[📄](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-ripley-x86_64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base.md)[📈](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-ripley-x86_64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base.svg)[🧠](results/bm-20260423-3.15.0a8%2B-448d7b9-JIT/bm-20260423-ripley-x86_64-python-448d7b96c181d13ca7f8-3.15.0a8%2B-448d7b9-vs-base-mem.svg) |
@@ -694,6 +698,8 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-TAILCALL) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (TAILCALL) |  |  |  |  |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT%2CTAILCALL) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-TAILCALL) | python/95559d2a7e0071342dff | 95559d2 (TAILCALL) |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-JIT%2CTAILCALL) | python/95559d2a7e0071342dff | 95559d2 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-23](results/bm-20260423-3.15.0a8%2B-448d7b9-TAILCALL) | python/448d7b96c181d13ca7f8 | 448d7b9 (TAILCALL) |  |  |  |  |
@@ -918,6 +924,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-TAILCALL) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (TAILCALL) |  |  |  |  |
+| [2026-04-25](results/bm-20260425-3.15.0a8%2B-c5fcdb4-JIT%2CTAILCALL) | python/c5fcdb4a9bd04b88f363 | c5fcdb4 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-TAILCALL) | python/95559d2a7e0071342dff | 95559d2 (TAILCALL) |  |  |  |  |
 | [2026-04-24](results/bm-20260424-3.15.0a8%2B-95559d2-JIT%2CTAILCALL) | python/95559d2a7e0071342dff | 95559d2 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-04-23](results/bm-20260423-3.15.0a8%2B-448d7b9-TAILCALL) | python/448d7b96c181d13ca7f8 | 448d7b9 (TAILCALL) |  |  |  |  |
