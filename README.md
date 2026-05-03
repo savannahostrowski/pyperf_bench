@@ -46,6 +46,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-02](results/bm-20260502-3.15.0a8%2B-6b632ce-TAILCALL) | python/6b632ce36b950c7753c5 | 6b632ce (TAILCALL) |  |  |  |  |
 | [2026-05-02](results/bm-20260502-3.15.0a8%2B-6b632ce-JIT%2CTAILCALL) | python/6b632ce36b950c7753c5 | 6b632ce (JIT) (TAILCALL) |  |  |  |  |
 | [2026-05-01](results/bm-20260501-3.15.0a8%2B-bb911a2-TAILCALL) | python/bb911a2319365a4155e7 | bb911a2 (TAILCALL) |  |  |  |  |
 | [2026-05-01](results/bm-20260501-3.15.0a8%2B-bb911a2-JIT%2CTAILCALL) | python/bb911a2319365a4155e7 | bb911a2 (JIT) (TAILCALL) |  |  |  |  |
