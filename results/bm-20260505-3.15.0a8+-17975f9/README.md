@@ -8,10 +8,19 @@
 - commit merge base: [4fa5c0428213f9b80a2b3e25e49b52e8596d8528](https://github.com/python/cpython/commit/4fa5c0428213f9b80a2b3e25e49b52e8596d8528)
 - ref: 17975f92edd2a6a84549
 
+## linux aarch64 (blueberry)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/25443771452)
+- cpu model: missing
+- platform: Linux-6.12.75+rpt-rpi-2712-aarch64-with-glibc2.36
+- [raw results](bm-20260505-blueberry-aarch64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9.json)
+
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/25428406253)
 - cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
 - platform: Linux-6.8.0-110-generic-x86_64-with-glibc2.39
+- [pystats raw](bm-20260505-ripley-x86_64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9-pystats.json)
+- [pystats table](bm-20260505-ripley-x86_64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9-pystats.md)
 - [raw results](bm-20260505-ripley-x86_64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9.json)
 

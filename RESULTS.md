@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (8c79678)](results/bm-20260504-3.15.0a8%2B-8c79678/bm-20260504-ripley-x86_64-python-8c796782fc3fbd380ca5-3.15.0a8%2B-8c79678-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (2e94f14)](results/bm-20260503-3.15.0a8%2B-2e94f14-PYTHON_UOPS/bm-20260503-ripley-x86_64-python-2e94f14310e8ab62f41d-3.15.0a8%2B-2e94f14-pystats.md)
+- [Most recent  pystats on main (17975f9)](results/bm-20260505-3.15.0a8%2B-17975f9/bm-20260505-ripley-x86_64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (17975f9)](results/bm-20260505-3.15.0a8%2B-17975f9-PYTHON_UOPS/bm-20260505-ripley-x86_64-python-17975f92edd2a6a84549-3.15.0a8%2B-17975f9-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -12,6 +12,7 @@
 ## linux aarch64 (blueberry)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-05](results/bm-20260505-3.15.0a8%2B-17975f9) | python/17975f92edd2a6a84549 | 17975f9 |  |  |  |  |
 | [2026-05-03](results/bm-20260503-3.15.0a8%2B-2e94f14-JIT) | python/2e94f14310e8ab62f41d | 2e94f14 (JIT) |  |  |  | 1.007x ↑<br>[📄](results/bm-20260503-3.15.0a8%2B-2e94f14-JIT/bm-20260503-blueberry-aarch64-python-2e94f14310e8ab62f41d-3.15.0a8%2B-2e94f14-vs-base.md)[📈](results/bm-20260503-3.15.0a8%2B-2e94f14-JIT/bm-20260503-blueberry-aarch64-python-2e94f14310e8ab62f41d-3.15.0a8%2B-2e94f14-vs-base.svg)[🧠](results/bm-20260503-3.15.0a8%2B-2e94f14-JIT/bm-20260503-blueberry-aarch64-python-2e94f14310e8ab62f41d-3.15.0a8%2B-2e94f14-vs-base-mem.svg) |
 | [2026-05-03](results/bm-20260503-3.15.0a8%2B-2e94f14) | python/2e94f14310e8ab62f41d | 2e94f14 |  |  |  |  |
 | [2026-05-02](results/bm-20260502-3.15.0a8%2B-6b632ce-JIT) | python/6b632ce36b950c7753c5 | 6b632ce (JIT) |  |  |  | 1.018x ↑<br>[📄](results/bm-20260502-3.15.0a8%2B-6b632ce-JIT/bm-20260502-blueberry-aarch64-python-6b632ce36b950c7753c5-3.15.0a8%2B-6b632ce-vs-base.md)[📈](results/bm-20260502-3.15.0a8%2B-6b632ce-JIT/bm-20260502-blueberry-aarch64-python-6b632ce36b950c7753c5-3.15.0a8%2B-6b632ce-vs-base.svg)[🧠](results/bm-20260502-3.15.0a8%2B-6b632ce-JIT/bm-20260502-blueberry-aarch64-python-6b632ce36b950c7753c5-3.15.0a8%2B-6b632ce-vs-base-mem.svg) |
