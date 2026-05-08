@@ -1,8 +1,8 @@
 # Benchmark results
 
 <!-- START table -->
-- [Most recent  pystats on main (2b7c28a)](results/bm-20260506-3.15.0a8%2B-2b7c28a/bm-20260506-ripley-x86_64-python-2b7c28a4406da1b26dd0-3.15.0a8%2B-2b7c28a-pystats.md)
-- [Most recent PYTHON_UOPS pystats on main (2b7c28a)](results/bm-20260506-3.15.0a8%2B-2b7c28a-PYTHON_UOPS/bm-20260506-ripley-x86_64-python-2b7c28a4406da1b26dd0-3.15.0a8%2B-2b7c28a-pystats.md)
+- [Most recent  pystats on main (49918f5)](results/bm-20260507-3.16.0a0-49918f5/bm-20260507-ripley-x86_64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-pystats.md)
+- [Most recent PYTHON_UOPS pystats on main (49918f5)](results/bm-20260507-3.16.0a0-49918f5-PYTHON_UOPS/bm-20260507-ripley-x86_64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-pystats.md)
 
 ## unknown x86_64 (linux)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
@@ -385,6 +385,8 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5-JIT) | python/49918f5b0ceb1950c322 | 49918f5 (JIT) |  |  |  | 1.074x ↑<br>[📄](results/bm-20260507-3.16.0a0-49918f5-JIT/bm-20260507-ripley-x86_64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base.md)[📈](results/bm-20260507-3.16.0a0-49918f5-JIT/bm-20260507-ripley-x86_64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base.svg)[🧠](results/bm-20260507-3.16.0a0-49918f5-JIT/bm-20260507-ripley-x86_64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base-mem.svg) |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5) | python/49918f5b0ceb1950c322 | 49918f5 |  |  |  |  |
 | [2026-05-06](results/bm-20260506-3.15.0a8%2B-2b7c28a) | python/2b7c28a4406da1b26dd0 | 2b7c28a |  |  |  |  |
 | [2026-05-05](results/bm-20260505-3.15.0a8%2B-17975f9) | python/17975f92edd2a6a84549 | 17975f9 |  |  |  |  |
 | [2026-05-04](results/bm-20260504-3.15.0a8%2B-8c79678) | python/8c796782fc3fbd380ca5 | 8c79678 |  |  |  |  |
@@ -735,6 +737,8 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5-TAILCALL) | python/49918f5b0ceb1950c322 | 49918f5 (TAILCALL) |  |  |  |  |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5-JIT%2CTAILCALL) | python/49918f5b0ceb1950c322 | 49918f5 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-05-06](results/bm-20260506-3.15.0a8%2B-2b7c28a-TAILCALL) | python/2b7c28a4406da1b26dd0 | 2b7c28a (TAILCALL) |  |  |  |  |
 | [2026-05-05](results/bm-20260505-3.15.0a8%2B-17975f9-TAILCALL) | python/17975f92edd2a6a84549 | 17975f9 (TAILCALL) |  |  |  |  |
 | [2026-05-04](results/bm-20260504-3.15.0a8%2B-8c79678-TAILCALL) | python/8c796782fc3fbd380ca5 | 8c79678 (TAILCALL) |  |  |  |  |
@@ -979,6 +983,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5-TAILCALL) | python/49918f5b0ceb1950c322 | 49918f5 (TAILCALL) |  |  |  |  |
+| [2026-05-07](results/bm-20260507-3.16.0a0-49918f5-JIT%2CTAILCALL) | python/49918f5b0ceb1950c322 | 49918f5 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-05-06](results/bm-20260506-3.15.0a8%2B-2b7c28a-TAILCALL) | python/2b7c28a4406da1b26dd0 | 2b7c28a (TAILCALL) |  |  |  |  |
 | [2026-05-05](results/bm-20260505-3.15.0a8%2B-17975f9-TAILCALL) | python/17975f92edd2a6a84549 | 17975f9 (TAILCALL) |  |  |  |  |
 | [2026-05-04](results/bm-20260504-3.15.0a8%2B-8c79678-TAILCALL) | python/8c796782fc3fbd380ca5 | 8c79678 (TAILCALL) |  |  |  |  |
