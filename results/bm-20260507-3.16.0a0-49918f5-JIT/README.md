@@ -8,6 +8,21 @@
 - commit merge base: [b142878db1e54149feba62b08df1236432793bf0](https://github.com/python/cpython/commit/b142878db1e54149feba62b08df1236432793bf0)
 - ref: 49918f5b0ceb1950c322
 
+## linux aarch64 (blueberry)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/25548576143)
+- cpu model: missing
+- platform: Linux-6.12.75+rpt-rpi-2712-aarch64-with-glibc2.36
+- [raw results](bm-20260507-blueberry-aarch64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5.json)
+
+### vs. base
+
+- Geometric mean: 1.016x slower (HPT: reliability of 91.57%, 1.00x slower at 99th %ile)
+- Memory usage: 1.03x
+- [🧠memory plot](bm-20260507-blueberry-aarch64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base-mem.svg)
+- [📄table](bm-20260507-blueberry-aarch64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base.md)
+- [📈time plot](bm-20260507-blueberry-aarch64-python-49918f5b0ceb1950c322-3.16.0a0-49918f5-vs-base.svg)
+
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/25548576143)
