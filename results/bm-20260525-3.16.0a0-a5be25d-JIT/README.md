@@ -23,3 +23,18 @@
 - [📄table](bm-20260525-blueberry-aarch64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d-vs-base.md)
 - [📈time plot](bm-20260525-blueberry-aarch64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d-vs-base.svg)
 
+## linux x86_64 (ripley)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/26446874190)
+- cpu model: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+- platform: Linux-6.8.0-110-generic-x86_64-with-glibc2.39
+- [raw results](bm-20260525-ripley-x86_64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d.json)
+
+### vs. base
+
+- Geometric mean: 1.075x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
+- Memory usage: 1.02x
+- [🧠memory plot](bm-20260525-ripley-x86_64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d-vs-base-mem.svg)
+- [📄table](bm-20260525-ripley-x86_64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d-vs-base.md)
+- [📈time plot](bm-20260525-ripley-x86_64-python-a5be25d3bdc1b3cbc963-3.16.0a0-a5be25d-vs-base.svg)
+
