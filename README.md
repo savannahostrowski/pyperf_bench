@@ -46,6 +46,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-26](results/bm-20260526-3.16.0a0-776573c-TAILCALL) | python/776573c9f08f70ae9cb2 | 776573c (TAILCALL) |  |  |  |  |
 | [2026-05-26](results/bm-20260526-3.16.0a0-776573c-JIT%2CTAILCALL) | python/776573c9f08f70ae9cb2 | 776573c (JIT) (TAILCALL) |  |  |  |  |
 | [2026-05-25](results/bm-20260525-3.16.0a0-a5be25d-TAILCALL) | python/a5be25d3bdc1b3cbc963 | a5be25d (TAILCALL) |  |  |  |  |
 | [2026-05-25](results/bm-20260525-3.16.0a0-a5be25d-JIT%2CTAILCALL) | python/a5be25d3bdc1b3cbc963 | a5be25d (JIT) (TAILCALL) |  |  |  |  |
@@ -57,6 +58,7 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-05-26](results/bm-20260526-3.16.0a0-776573c-TAILCALL) | python/776573c9f08f70ae9cb2 | 776573c (TAILCALL) |  |  |  |  |
 | [2026-05-26](results/bm-20260526-3.16.0a0-776573c-JIT%2CTAILCALL) | python/776573c9f08f70ae9cb2 | 776573c (JIT) (TAILCALL) |  |  |  |  |
 | [2026-05-25](results/bm-20260525-3.16.0a0-a5be25d-TAILCALL) | python/a5be25d3bdc1b3cbc963 | a5be25d (TAILCALL) |  |  |  |  |
 | [2026-05-25](results/bm-20260525-3.16.0a0-a5be25d-JIT%2CTAILCALL) | python/a5be25d3bdc1b3cbc963 | a5be25d (JIT) (TAILCALL) |  |  |  |  |
