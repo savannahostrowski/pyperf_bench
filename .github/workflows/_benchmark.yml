@@ -442,7 +442,7 @@ jobs:
         add: results
         push: false
     - name: Push results with retry
-      shell: pwsh
+      shell: powershell
       run: |
         $branch = $env:GITHUB_REF_NAME
         for ($attempt = 1; $attempt -le 5; $attempt++) {
