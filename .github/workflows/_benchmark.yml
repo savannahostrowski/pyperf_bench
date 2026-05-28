@@ -442,20 +442,20 @@ jobs:
         add: results
         push: false
     - name: Push results with retry
-      shell: bash
+      shell: pwsh
       run: |
-        set -e
-        branch="${GITHUB_REF_NAME}"
-        for attempt in 1 2 3 4 5; do
-          echo "Push attempt $attempt to origin/$branch"
-          git pull --rebase -s recursive -X ours origin "$branch"
-          if git push origin "HEAD:$branch"; then
-            echo "Push succeeded on attempt $attempt"
+        $branch = $env:GITHUB_REF_NAME
+        for ($attempt = 1; $attempt -le 5; $attempt++) {
+          Write-Host "Push attempt $attempt to origin/$branch"
+          git pull --rebase -s recursive -X ours origin $branch
+          git push origin "HEAD:$branch"
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "Push succeeded on attempt $attempt"
             exit 0
-          fi
-          sleep $(( RANDOM % 30 + 10 ))
-        done
-        echo "Push failed after 5 attempts" >&2
+          }
+          Start-Sleep -Seconds (Get-Random -Minimum 10 -Maximum 40)
+        }
+        Write-Error "Push failed after 5 attempts"
         exit 1
     - name: Upload artifacts
       uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.0
