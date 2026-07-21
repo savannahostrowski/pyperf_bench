@@ -1429,6 +1429,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-07-09](results/bm-20260709-3.16.0a0-b2d8db1-TAILCALL) | python/b2d8db1ac818e74ffe66 | b2d8db1 (TAILCALL) |  |  |  |  |
+| [2026-07-09](results/bm-20260709-3.16.0a0-b2d8db1-JIT%2CTAILCALL) | python/b2d8db1ac818e74ffe66 | b2d8db1 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-07-07](results/bm-20260707-3.16.0a0-aa533dc-TAILCALL) | python/aa533dce22bf20ba3c1e | aa533dc (TAILCALL) |  |  |  |  |
 | [2026-07-07](results/bm-20260707-3.16.0a0-aa533dc-JIT%2CTAILCALL) | python/aa533dce22bf20ba3c1e | aa533dc (JIT) (TAILCALL) |  |  |  |  |
 | [2026-07-06](results/bm-20260706-3.16.0a0-35c6779-TAILCALL) | python/35c6779c7b5c4c2e2d97 | 35c6779 (TAILCALL) |  |  |  |  |

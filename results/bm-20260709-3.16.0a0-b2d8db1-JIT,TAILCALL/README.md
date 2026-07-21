@@ -15,3 +15,10 @@
 - platform: Windows-11-10.0.26200-SP0
 - [raw results](bm-20260709-prometheus-amd64-python-b2d8db1ac818e74ffe66-3.16.0a0-b2d8db1.json)
 
+## darwin arm64 (jones)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/29017172792)
+- cpu model: missing
+- platform: macOS-26.5.2-arm64-arm-64bit-Mach-O
+- [raw results](bm-20260709-jones-arm64-python-b2d8db1ac818e74ffe66-3.16.0a0-b2d8db1.json)
+
