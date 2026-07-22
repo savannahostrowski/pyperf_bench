@@ -53,6 +53,8 @@ Here are some recent and important revisions. 👉 [Complete list of results](RE
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-07-18](results/bm-20260718-3.16.0a0-16d0c89-TAILCALL) | python/16d0c89b875c520cf5af | 16d0c89 (TAILCALL) |  |  |  |  |
+| [2026-07-18](results/bm-20260718-3.16.0a0-16d0c89-JIT%2CTAILCALL) | python/16d0c89b875c520cf5af | 16d0c89 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-07-16](results/bm-20260716-3.16.0a0-f62050d-TAILCALL) | python/f62050d65743f0c895f7 | f62050d (TAILCALL) |  |  |  |  |
 | [2026-07-16](results/bm-20260716-3.16.0a0-f62050d-JIT%2CTAILCALL) | python/f62050d65743f0c895f7 | f62050d (JIT) (TAILCALL) |  |  |  |  |
 | [2026-07-15](results/bm-20260715-3.16.0a0-b4662e8-TAILCALL) | python/b4662e8e3b60a2644861 | b4662e8 (TAILCALL) |  |  |  |  |
