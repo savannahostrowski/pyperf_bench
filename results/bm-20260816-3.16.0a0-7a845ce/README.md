@@ -8,6 +8,13 @@
 - commit merge base: [5b96d3914767dc71cb21fd3448f5ded4fd85d957](https://github.com/python/cpython/commit/5b96d3914767dc71cb21fd3448f5ded4fd85d957)
 - ref: 7a845ce16548bf94e777
 
+## linux aarch64 (blueberry)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/32016896338)
+- cpu model: missing
+- platform: Linux-6.12.75+rpt-rpi-2712-aarch64-with-glibc2.36
+- [raw results](bm-20260816-blueberry-aarch64-python-7a845ce16548bf94e777-3.16.0a0-7a845ce.json)
+
 ## linux x86_64 (ripley)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/32016896338)
