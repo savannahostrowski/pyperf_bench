@@ -631,6 +631,7 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-09-07](results/bm-20260907-3.16.0a0-23180c5) | python/23180c50082fe98784c7 | 23180c5 |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-JIT) | python/09117bc3173b6854f3d6 | 09117bc (JIT) |  |  |  | 1.077x ↑<br>[📄](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base.md)[📈](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base.svg)[🧠](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base-mem.svg) |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc) | python/09117bc3173b6854f3d6 | 09117bc |  |  |  |  |
 | [2026-09-05](results/bm-20260905-3.16.0a0-7a91841-JIT) | python/7a918411a300ddeef06d | 7a91841 (JIT) |  |  |  | 1.077x ↑<br>[📄](results/bm-20260905-3.16.0a0-7a91841-JIT/bm-20260905-ripley-x86_64-python-7a918411a300ddeef06d-3.16.0a0-7a91841-vs-base.md)[📈](results/bm-20260905-3.16.0a0-7a91841-JIT/bm-20260905-ripley-x86_64-python-7a918411a300ddeef06d-3.16.0a0-7a91841-vs-base.svg)[🧠](results/bm-20260905-3.16.0a0-7a91841-JIT/bm-20260905-ripley-x86_64-python-7a918411a300ddeef06d-3.16.0a0-7a91841-vs-base-mem.svg) |
@@ -1227,6 +1228,7 @@
 ## windows amd64 (prometheus)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-09-07](results/bm-20260907-3.16.0a0-23180c5-TAILCALL) | python/23180c50082fe98784c7 | 23180c5 (TAILCALL) |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-TAILCALL) | python/09117bc3173b6854f3d6 | 09117bc (TAILCALL) |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-JIT%2CTAILCALL) | python/09117bc3173b6854f3d6 | 09117bc (JIT) (TAILCALL) |  |  |  |  |
 | [2026-09-05](results/bm-20260905-3.16.0a0-7a91841-TAILCALL) | python/7a918411a300ddeef06d | 7a91841 (TAILCALL) |  |  |  |  |
@@ -1717,6 +1719,8 @@
 ## darwin arm64 (jones)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-09-07](results/bm-20260907-3.16.0a0-23180c5-TAILCALL) | python/23180c50082fe98784c7 | 23180c5 (TAILCALL) |  |  |  |  |
+| [2026-09-07](results/bm-20260907-3.16.0a0-23180c5-JIT%2CTAILCALL) | python/23180c50082fe98784c7 | 23180c5 (JIT) (TAILCALL) |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-TAILCALL) | python/09117bc3173b6854f3d6 | 09117bc (TAILCALL) |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-JIT%2CTAILCALL) | python/09117bc3173b6854f3d6 | 09117bc (JIT) (TAILCALL) |  |  |  |  |
 | [2026-09-05](results/bm-20260905-3.16.0a0-7a91841-TAILCALL) | python/7a918411a300ddeef06d | 7a91841 (TAILCALL) |  |  |  |  |
