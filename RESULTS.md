@@ -633,6 +633,7 @@
 ## linux x86_64 (ripley)
 | date | fork/ref | hash/flags | vs. 3.11.0: | vs. 3.12.0: | vs. 3.13.0: | vs. base: |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2026-09-08](results/bm-20260908-3.16.0a0-c4e7500-NOGIL) | ZeroIntensity/jit_free_threading | c4e7500 (NOGIL) |  |  |  |  |
 | [2026-09-07](results/bm-20260907-3.16.0a0-23180c5-JIT) | python/23180c50082fe98784c7 | 23180c5 (JIT) |  |  |  | 1.077x ↑<br>[📄](results/bm-20260907-3.16.0a0-23180c5-JIT/bm-20260907-ripley-x86_64-python-23180c50082fe98784c7-3.16.0a0-23180c5-vs-base.md)[📈](results/bm-20260907-3.16.0a0-23180c5-JIT/bm-20260907-ripley-x86_64-python-23180c50082fe98784c7-3.16.0a0-23180c5-vs-base.svg)[🧠](results/bm-20260907-3.16.0a0-23180c5-JIT/bm-20260907-ripley-x86_64-python-23180c50082fe98784c7-3.16.0a0-23180c5-vs-base-mem.svg) |
 | [2026-09-07](results/bm-20260907-3.16.0a0-23180c5) | python/23180c50082fe98784c7 | 23180c5 |  |  |  |  |
 | [2026-09-06](results/bm-20260906-3.16.0a0-09117bc-JIT) | python/09117bc3173b6854f3d6 | 09117bc (JIT) |  |  |  | 1.077x ↑<br>[📄](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base.md)[📈](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base.svg)[🧠](results/bm-20260906-3.16.0a0-09117bc-JIT/bm-20260906-ripley-x86_64-python-09117bc3173b6854f3d6-3.16.0a0-09117bc-vs-base-mem.svg) |
