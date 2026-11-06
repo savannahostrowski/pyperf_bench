@@ -1,0 +1,25 @@
+# Installed in pyperf_bench/.github/workflows/.
+# This file is intentionally inactive in the results repository.
+# It does not modify nightly.yml or the existing dashboard dispatch.
+name: Notify Python results archive
+on:
+  workflow_run:
+    workflows: [nightly, benchmark]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: notify-python-results
+  cancel-in-progress: false
+jobs:
+  notify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request interpreter import
+        env:
+          GH_TOKEN: ${{ secrets.DASHBOARD_REPO_PAT }}
+        run: |
+          gh api --method POST repos/savannahostrowski/doespythongobrrr-results/dispatches \
+            -f event_type=benchmark_completed
