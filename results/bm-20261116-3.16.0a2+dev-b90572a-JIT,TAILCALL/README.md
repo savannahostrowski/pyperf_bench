@@ -8,6 +8,13 @@
 - commit merge base: [6903425cd913e4a2b78a312c81d74248322165e9](https://github.com/python/cpython/commit/6903425cd913e4a2b78a312c81d74248322165e9)
 - ref: b90572af8f94568d9373
 
+## windows amd64 (prometheus)
+
+- [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/44146335000)
+- cpu model: missing
+- platform: Windows-11-10.0.26300-SP0
+- [raw results](bm-20261116-prometheus-amd64-python-b90572af8f94568d9373-3.16.0a2%2Bdev-b90572a.json)
+
 ## darwin arm64 (jones)
 
 - [GitHub Action run](https://github.com/savannahostrowski/pyperf_bench/actions/runs/44161539762)
